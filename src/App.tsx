@@ -6,6 +6,7 @@ import {
   Skills,
   Projects,
   Objectifs,
+  PourquoiSD,
   Contact,
   Gallery,
 } from '@/components/sections'
@@ -21,6 +22,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Objectifs />
+        <PourquoiSD />
         <Contact />
         <Gallery />
       </main>

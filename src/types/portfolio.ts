@@ -15,6 +15,7 @@ export interface Profile {
   bio: string
   avatarSvg: string
   social: SocialLink[]
+  qualities?: string[]
 }
 
 export interface SkillCategory {
@@ -58,6 +59,11 @@ export interface GalleryItem {
   altText: string
 }
 
+export interface PourquoiSD {
+  title: string
+  content: string
+}
+
 export interface PortfolioData {
   profile: Profile
   skills: {
@@ -67,4 +73,5 @@ export interface PortfolioData {
   projects: Project[]
   testimonials: Testimonial[]
   gallery: GalleryItem[]
+  pourquoiSD: PourquoiSD
 }

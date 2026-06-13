@@ -11,7 +11,15 @@
     "avatarSvg": "/avatar.png",
     "social": [
       { "platform": "github", "url": "https://github.com/mael24bnj", "label": "GitHub" },
-      { "platform": "email", "url": "maelbenjamin10@gmail.com", "label": "Email" }
+      { "platform": "email", "url": "maelbenjamin10@gmail.com", "label": "Email : maelbenjamin10gmail.com" }
+    ],
+    "qualities": [
+      "Créatif",
+      "À l’écoute",
+      "Curieux",
+      "Respectueux",
+      "Adaptatif",
+      "Ponctuel"
     ]
   },
   "skills": {
@@ -38,7 +46,7 @@
       }
     ]
   },
-"experience": [
+  "experience": [
     {
       "company": "Université Sorbonne Paris Nord",
       "role": "Étudiant - SAÉ 201 Base de données ",
@@ -76,24 +84,29 @@
       ]
     }
   ],
-  "projects": [{ "id": "sae-101", "title": "Analyse et Requêtage SQL", "subtitle": "Traiter", "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.", "stack": ["SQL", "PostgreSQL"], "year": "2025", "highlight": false },
-  { "id": "sae-102", "title": "Programmation Python", "subtitle": "Traiter", "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.", "stack": ["Python"], "year": "2025", "highlight": false },
-  { "id": "sae-201", "title": "Modélisation et Nettoyage PostgreSQL", "subtitle": "Traiter, Analyser", "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.", "stack": ["PostgreSQL", "SQL"], "year": "2026", "highlight": false },
-  { "id": "sae-202", "title": "Statistiques Inférentielles et Simulation R", "subtitle": "Traiter, Analyser", "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.", "stack": ["R", "Statistiques"], "year": "2026", "highlight": false },
-  { "id": "sae-106", "title": "Analyse Statistique", "subtitle": "Analyser", "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.", "stack": ["Statistiques", "Excel"], "year": "2025", "highlight": false },
-  { "id": "sae-104", "title": "Écosystème Data (Axone Data)", "subtitle": "Analyser, Valoriser", "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.", "stack": ["Analyse Stratégique"], "year": "2025", "highlight": false },
-  { "id": "sae-205", "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
-  { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
-  { "id": "sae-103", "title": "Dashboarding Excel", "subtitle": "Traiter, Valoriser", "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.", "stack": ["Excel", "DataViz"], "year": "2025", "highlight": false },
-  { "id": "sae-105", "title": "Analyse Territoriale (Projet Anglais)", "subtitle": "Analyser, Valoriser", "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.", "stack": ["Design", "Anglais"], "year": "2025", "highlight": false },
-  { "id": "sae-206", "title": "Projet DataViz : Village des Trois Âges", "subtitle": "Traiter, Analyser, Valoriser", "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.", "stack": ["Tableau", "R", "Excel"], "year": "2026", "highlight": true },
-  { "id": "sae-207", "title": "Immersion Professionnelle", "subtitle": "Valoriser", "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.", "stack": ["Communication", "Networking"], "year": "2026", "highlight": false }
-],
+  "projects": [
+    { "id": "sae-101", "title": "Analyse et Requêtage SQL", "subtitle": "Traiter", "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.", "stack": ["SQL", "PostgreSQL"], "year": "2025", "highlight": false },
+    { "id": "sae-102", "title": "Programmation Python", "subtitle": "Traiter", "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.", "stack": ["Python"], "year": "2025", "highlight": false },
+    { "id": "sae-201", "title": "Modélisation et Nettoyage PostgreSQL", "subtitle": "Traiter, Analyser", "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.", "stack": ["PostgreSQL", "SQL"], "year": "2026", "highlight": false },
+    { "id": "sae-202", "title": "Statistiques Inférentielles et Simulation R", "subtitle": "Traiter, Analyser", "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.", "stack": ["R", "Statistiques"], "year": "2026", "highlight": false },
+    { "id": "sae-106", "title": "Analyse Statistique", "subtitle": "Analyser", "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.", "stack": ["Statistiques", "Excel"], "year": "2025", "highlight": false },
+    { "id": "sae-104", "title": "Écosystème Data (Axone Data)", "subtitle": "Analyser, Valoriser", "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.", "stack": ["Analyse Stratégique"], "year": "2025", "highlight": false },
+    { "id": "sae-205", "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
+    { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
+    { "id": "sae-103", "title": "Dashboarding Excel", "subtitle": "Traiter, Valoriser", "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.", "stack": ["Excel", "DataViz"], "year": "2025", "highlight": false },
+    { "id": "sae-105", "title": "Analyse Territoriale (Projet Anglais)", "subtitle": "Analyser, Valoriser", "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.", "stack": ["Design", "Anglais"], "year": "2025", "highlight": false },
+    { "id": "sae-206", "title": "Projet DataViz : Village des Trois Âges", "subtitle": "Traiter, Analyser, Valoriser", "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.", "stack": ["Tableau", "R", "Excel"], "year": "2026", "highlight": true },
+    { "id": "sae-207", "title": "Immersion Professionnelle", "subtitle": "Valoriser", "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.", "stack": ["Communication", "Networking"], "year": "2026", "highlight": false }
+  ],
   "testimonials": [],
-"gallery": [
-  { "id": "g1", "imageUrl": "/gallery/photo-01.png", "altText": "Portrait détouré" },
-  { "id": "g2", "imageUrl": "/gallery/photo-02.jpg", "altText": "Photo streetwear 1" },
-  { "id": "g3", "imageUrl": "/gallery/photo-03.jpg", "altText": "Photo streetwear 2" },
-  { "id": "g4", "imageUrl": "/gallery/photo-04.jpg", "altText": "Portrait" }
-]
+  "gallery": [
+    { "id": "g1", "imageUrl": "/gallery/photo-01.png", "altText": "Portrait détouré" },
+    { "id": "g2", "imageUrl": "/gallery/photo-02.jpg", "altText": "Photo streetwear 1" },
+    { "id": "g3", "imageUrl": "/gallery/photo-03.jpg", "altText": "Photo streetwear 2" },
+    { "id": "g4", "imageUrl": "/gallery/photo-04.jpg", "altText": "Portrait" }
+  ],
+  "pourquoiSD": {
+    "title": "Pourquoi la Science des Données ?",
+    "content": "J’ai choisis la science des données car pendant ma terminal STI2D spécialité SIN j’ai particulièrement compris que j’aimais mélanger: les math, la communication oral pour présenter mon travaille malgré ma timidité que j’essaye de surmonter, l’informatique, et 2 BUT s'offrait à moi le BUT info et le BUT SD. En sachant qu’avec l’évolution démesuré de l’IA je me suis dis que le mieux serait de prendre la science des données plus tôt que l’informatique car le DATA ne peut pas disparaître à cause de l’IA car sans DATA il n’y pas de d’ia. Mais aussi car l’IA et le futur monde de la DATA vont évoluer et que je veux être au premier rang quand elle changera totalement pour en faire mon milieu professionnelle."
+  }
 }

@@ -26,6 +26,18 @@ export function About() {
           <p className="text-text-muted">
             {profile.yearsOfExperience}+ ans d'expérience avec les données
           </p>
+          {profile.qualities && (
+            <div className="flex flex-wrap gap-2 mt-4">
+              {profile.qualities.map((quality, index) => (
+                <span
+                  key={index}
+                  className="rounded-full border border-border-subtle px-2.5 py-0.5 text-xs text-text-muted"
+                >
+                  {quality}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         <p
