@@ -5,7 +5,7 @@
     "tagline": "Étudiant en BUT Science des Données",
     "role": "Data Science Student",
     "specialization": "Data Analytics & IA",
-    "location": "Champagne-sur-Oise, France",
+    "location": "Localisation :Champagne-sur-Oise, France",
     "yearsOfExperience": 1,
     "bio": "Actuellement en fin de première année de BUT Science des Données, j'ai toujours eu une meilleure affinité avec les maths qu'avec les langues. Au collège, j'ai joué sur cet avantage pour obtenir de bonnes notes, mais en troisième, une professeure m'a fait perdre toute envie d'aimer cette matière. Arrivé en seconde avec une moyenne fragile, j'ai choisi de m'orienter en STI2D pour reprendre les bases. Lors d'un entretien, mon professeur principal de physique-chimie m'a dit : « Maël, tu as une moyenne fragile en maths, mais je te fais confiance. J'étais nul en physique-chimie et regarde où je suis maintenant ». Il a validé mon passage, et j'ai terminé parmi les premiers de la promo. En STI2D, j'ai aussi rencontré ma professeure de spécialité SIN qui m'a conforté dans ma capacité à réussir dans le supérieur.\n\nMon projet professionnel est clair : je veux travailler dans la donnée. C'est un domaine en expansion qui va se transformer grâce à l'IA, et je veux être au premier rang de cette évolution. Au niveau de mes qualités, je suis super créatif et j'ai toujours des idées originales pour résoudre des problèmes. Sur mon temps libre, j'exploite les nouvelles IA pour étudier le marché, voir commentautomatiser des boutiques digitales ou concevoir des marques. Tout ce qui nécessitait autrefois un long apprentissage et beaucoup d'argent, je peux désormais le faire moi-même en un temps record.",
     "avatarSvg": "/avatar.png",
@@ -91,8 +91,8 @@
     { "id": "sae-202", "title": "Statistiques Inférentielles et Simulation R", "subtitle": "Traiter, Analyser", "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.", "stack": ["R", "Statistiques"], "year": "2026", "highlight": false },
     { "id": "sae-106", "title": "Analyse Statistique", "subtitle": "Analyser", "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.", "stack": ["Statistiques", "Excel"], "year": "2025", "highlight": false },
     { "id": "sae-104", "title": "Écosystème Data (Axone Data)", "subtitle": "Analyser, Valoriser", "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.", "stack": ["Analyse Stratégique"], "year": "2025", "highlight": false },
-    { "id": "sae-205", "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
-    { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
+    { "id": "sae-205": "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
+    { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM and cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
     { "id": "sae-103", "title": "Dashboarding Excel", "subtitle": "Traiter, Valoriser", "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.", "stack": ["Excel", "DataViz"], "year": "2025", "highlight": false },
     { "id": "sae-105", "title": "Analyse Territoriale (Projet Anglais)", "subtitle": "Analyser, Valoriser", "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.", "stack": ["Design", "Anglais"], "year": "2025", "highlight": false },
     { "id": "sae-206", "title": "Projet DataViz : Village des Trois Âges", "subtitle": "Traiter, Analyser, Valoriser", "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.", "stack": ["Tableau", "R", "Excel"], "year": "2026", "highlight": true },
@@ -100,10 +100,10 @@
   ],
   "testimonials": [],
   "gallery": [
-    { "id": "g1", "imageUrl": "/gallery/photo-01.png", "altText": "Portrait détouré" },
+    { "id": "g1", "imageUrl": "/gallery/photo-06.jpg", "altText": "Portrait détouré" },
     { "id": "g2", "imageUrl": "/gallery/photo-02.jpg", "altText": "Photo streetwear 1" },
     { "id": "g3", "imageUrl": "/gallery/photo-03.jpg", "altText": "Photo streetwear 2" },
-    { "id": "g4", "imageUrl": "/gallery/photo-04.jpg", "altText": "Portrait" }
+    { "id": "g4", "imageUrl": "/gallery/photo-05.jpg", "altText": "Portrait" }
   ],
   "pourquoiSD": {
     "title": "Pourquoi la Science des Données ?",
