@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Kanit', ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg-dark: #0c0c0c;
+  --color-bg-card: #141414;
+  --color-border-subtle: #2a2a2a;
+  --color-text-primary: #f5f5f5;
+  --color-text-muted: #888888;
+  --color-chrome-start: #e8e8e8;
+  --color-chrome-mid: #b0b0b0;
+  --color-chrome-end: #707070;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-magenta: #ec4899;
+  --color-accent-orange: #f97316;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg-dark text-text-primary font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-accent-purple) 40%, transparent);
+  }
+}
+
+@layer utilities {
+  .text-chrome-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--color-chrome-start) 0%,
+      var(--color-chrome-mid) 45%,
+      var(--color-chrome-end) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-accent-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--color-accent-purple) 0%,
+      var(--color-accent-magenta) 50%,
+      var(--color-accent-orange) 100%
+    );
+  }
+
+  .card-dark {
+    @apply rounded-2xl border border-border-subtle bg-bg-card;
+  }
+
+  .section-container {
+    @apply mx-auto w-full max-w-6xl px-6 md:px-10;
+  }
+
+  @keyframes marquee-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee-left {
+    animation: marquee-left var(--marquee-duration, 40s) linear infinite;
+  }
+}

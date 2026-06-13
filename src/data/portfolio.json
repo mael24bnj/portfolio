@@ -1,0 +1,99 @@
+{
+  "profile": {
+    "name": "Maël BENJAMIN",
+    "shortName": "Maël",
+    "tagline": "Étudiant en BUT Science des Données",
+    "role": "Data Science Student",
+    "specialization": "Data Analytics & IA",
+    "location": "Champagne-sur-Oise, France",
+    "yearsOfExperience": 1,
+    "bio": "Actuellement en fin de première année de BUT Science des Données, j'ai toujours eu une meilleure affinité avec les maths qu'avec les langues. Au collège, j'ai joué sur cet avantage pour obtenir de bonnes notes, mais en troisième, une professeure m'a fait perdre toute envie d'aimer cette matière. Arrivé en seconde avec une moyenne fragile, j'ai choisi de m'orienter en STI2D pour reprendre les bases. Lors d'un entretien, mon professeur principal de physique-chimie m'a dit : « Maël, tu as une moyenne fragile en maths, mais je te fais confiance. J'étais nul en physique-chimie et regarde où je suis maintenant ». Il a validé mon passage, et j'ai terminé parmi les premiers de la promo. En STI2D, j'ai aussi rencontré ma professeure de spécialité SIN qui m'a conforté dans ma capacité à réussir dans le supérieur.\n\nMon projet professionnel est clair : je veux travailler dans la donnée. C'est un domaine en expansion qui va se transformer grâce à l'IA, et je veux être au premier rang de cette évolution. Au niveau de mes qualités, je suis super créatif et j'ai toujours des idées originales pour résoudre des problèmes. Sur mon temps libre, j'exploite les nouvelles IA pour étudier le marché, voir commentautomatiser des boutiques digitales ou concevoir des marques. Tout ce qui nécessitait autrefois un long apprentissage et beaucoup d'argent, je peux désormais le faire moi-même en un temps record.",
+    "avatarSvg": "/avatar.png",
+    "social": [
+      { "platform": "github", "url": "https://github.com/mael24bnj", "label": "GitHub" },
+      { "platform": "email", "url": "maelbenjamin10@gmail.com", "label": "Email" }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Bases de données & SGBD",
+        "items": ["PostgreSQL", "SQL", "Metabase"]
+      },
+      {
+        "name": "Programmation & Analyse",
+        "items": ["Python", "R", "Statistiques", "Probabilités", "Modélisation"]
+      },
+      {
+        "name": "Logiciels & DataViz",
+        "items": ["Excel", "Tableau Software"]
+      },
+      {
+        "name": "Gestion de projet & Conception",
+        "items": ["GitLab", "Draw.io", "Veille technologique IA"]
+      },
+      {
+        "name": "Théorie & Transversal",
+        "items": ["Mathématiques appliquées", "Économie & Stratégie", "Droit et RGPD (lors de du mini concour DATAVIZ", "Communication professionnelle"]
+      }
+    ]
+  },
+"experience": [
+    {
+      "company": "Université Sorbonne Paris Nord",
+      "role": "Étudiant - SAÉ 201 Base de données ",
+      "period": "Semestre 2",
+      "location": "Epinay-Villetaneuse",
+      "summary": "Transformation d'un jeu de données brut de l'État en une base relationnelle propre et interrogeable.",
+      "highlights": [
+        "Réalisation : Conception de l'architecture (Modèle EA et Schéma Relationnel) et peuplement de la base avec 150 000 lignes.",
+        "Méthodologie : Utilisation de SQL avec des filtres stricts pour isoler les données corrompues et respect de la 3ème Forme Normale (3FN). Création de graphiques sur metabase pour analyser et commenter les données",
+        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgrsql au lieu de le faire avec des requètes lors de la création des graphiques sur metabase[cite: 3]."
+      ]
+    },
+    {
+      "company": "Université Sorbonne Paris Nord",
+      "role": "Étudiant - SAÉ 207 (Découverte métier)",
+      "period": "Semestre 2",
+      "location": "Epinay-Villetaneuse",
+      "summary": "Immersion professionnelle via une interview avec Diana Lenar, Product Owner au CISIRH.",
+      "highlights": [
+        "Réalisation : Recherche d'une professionelle, Organisation de l'entretien, conduite de la visio et synthèse des pratiques d'une équipe data[cite: 3].",
+        "Méthodologie : Pour cette étude, j'ai identifié et interviewé une Product Owner du CISIRH afin d'analyser concrètement les interactions entre la gestion stratégique de projet et les impératifs techniques en environnement Data. Cette démarche a été structurée par une préparation rigoureuse des questions, la conduite d'un entretien de 32 minutes en visioconférence et une synthèse des enjeux à causes de l'IA sur les métiers et technologiques recueillis.[cite: 3].",
+        "Amélioration : Pour une prochaine fois, je préparerais des questions encore plus techniques sur les choix d'outils d'IA utilisés par son équipe pour anticiper les nouveaux métiers[cite: 3]."
+      ]
+    },
+    {
+      "company": "Université Sorbonne Paris Nord",
+      "role": "Étudiant - SAÉ105 Anglais",
+      "period": "Semestre 1",
+      "location": "Epinay-Villetaneuse",
+      "summary": "Analyse et présentation internationale de la Métropole de Lyon.",
+      "highlights": [
+        "Réalisation : Conception d'un poster créatif et présentation orale de 4 minutes devant un public anglophone[cite: 3].",
+        "Méthodologie : Synthèse d'informations géographiques et économiques complexes simplifiées pour un support visuel efficace[cite: 3].",
+        "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral[cite: 3]."
+      ]
+    }
+  ],
+  "projects": [{ "id": "sae-101", "title": "Analyse et Requêtage SQL", "subtitle": "Traiter", "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.", "stack": ["SQL", "PostgreSQL"], "year": "2025", "highlight": false },
+  { "id": "sae-102", "title": "Programmation Python", "subtitle": "Traiter", "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.", "stack": ["Python"], "year": "2025", "highlight": false },
+  { "id": "sae-201", "title": "Modélisation et Nettoyage PostgreSQL", "subtitle": "Traiter, Analyser", "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.", "stack": ["PostgreSQL", "SQL"], "year": "2026", "highlight": false },
+  { "id": "sae-202", "title": "Statistiques Inférentielles et Simulation R", "subtitle": "Traiter, Analyser", "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.", "stack": ["R", "Statistiques"], "year": "2026", "highlight": false },
+  { "id": "sae-106", "title": "Analyse Statistique", "subtitle": "Analyser", "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.", "stack": ["Statistiques", "Excel"], "year": "2025", "highlight": false },
+  { "id": "sae-104", "title": "Écosystème Data (Axone Data)", "subtitle": "Analyser, Valoriser", "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.", "stack": ["Analyse Stratégique"], "year": "2025", "highlight": false },
+  { "id": "sae-205", "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
+  { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
+  { "id": "sae-103", "title": "Dashboarding Excel", "subtitle": "Traiter, Valoriser", "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.", "stack": ["Excel", "DataViz"], "year": "2025", "highlight": false },
+  { "id": "sae-105", "title": "Analyse Territoriale (Projet Anglais)", "subtitle": "Analyser, Valoriser", "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.", "stack": ["Design", "Anglais"], "year": "2025", "highlight": false },
+  { "id": "sae-206", "title": "Projet DataViz : Village des Trois Âges", "subtitle": "Traiter, Analyser, Valoriser", "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.", "stack": ["Tableau", "R", "Excel"], "year": "2026", "highlight": true },
+  { "id": "sae-207", "title": "Immersion Professionnelle", "subtitle": "Valoriser", "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.", "stack": ["Communication", "Networking"], "year": "2026", "highlight": false }
+],
+  "testimonials": [],
+"gallery": [
+  { "id": "g1", "imageUrl": "/gallery/photo-01.png", "altText": "Portrait détouré" },
+  { "id": "g2", "imageUrl": "/gallery/photo-02.jpg", "altText": "Photo streetwear 1" },
+  { "id": "g3", "imageUrl": "/gallery/photo-03.jpg", "altText": "Photo streetwear 2" },
+  { "id": "g4", "imageUrl": "/gallery/photo-04.jpg", "altText": "Portrait" }
+]
+}
