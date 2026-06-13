@@ -1,10 +1,7 @@
 import { motion } from 'framer-motion'
 import { SectionHeading } from '@/components/ui'
-import data from '../../data/portfolio.json'
 
 export function Objectifs() {
-  const profile = data.profile || {}
-
   return (
     <section className="py-24 md:py-32">
       <div className="section-container mb-12 md:mb-16">

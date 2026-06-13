@@ -37,10 +37,10 @@ export interface Project {
   subtitle: string
   description: string
   stack: string[]
-  role: string
+  role?: string
   year: string
-  link: string
-  image: string
+  link?: string
+  image?: string
   highlight: boolean
 }
 

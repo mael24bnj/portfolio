@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 import { SectionHeading } from '@/components/ui'
-import data from '../../data/portfolio.json'
+import { useProjects } from '@/hooks/usePortfolio'
 
 export function Projects() {
-  const projects = data.projects || []
+  const projects = useProjects()
 
   return (
     <section id="projects" className="section-container py-24 md:py-32">
@@ -40,7 +40,7 @@ export function Projects() {
 
                 <div className="flex flex-col justify-center p-6 md:p-10">
                   <p className="mb-2 text-xs uppercase tracking-[0.2em] text-text-muted">
-                    {project.year} · {project.role}
+                    {project.year} · {project.role || 'N/A'}
                   </p>
                   <h3 className="mb-1 text-2xl font-medium text-text-primary md:text-3xl">
                     {project.title}
@@ -61,15 +61,21 @@ export function Projects() {
                     ))}
                   </div>
 
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-text-primary transition-colors hover:text-accent-purple"
-                  >
-                    Voir le projet
-                    <ArrowUpRight size={16} />
-                  </a>
+                  {project.link ? (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-text-primary transition-colors hover:text-accent-purple"
+                    >
+                      Voir le projet
+                      <ArrowUpRight size={16} />
+                    </a>
+                  ) : (
+                    <span className="inline-flex items-center gap-2 text-sm text-text-muted">
+                      Lien non disponible
+                    </span>
+                  )}
                 </div>
               </div>
             </motion.article>
