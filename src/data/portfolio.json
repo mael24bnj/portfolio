@@ -34,15 +34,15 @@
       },
       {
         "name": "Logiciels & DataViz",
-        "items": ["Excel", "Tableau Software"]
+        "items": ["Excel", "Tableau Software", "R Studio"]
       },
       {
         "name": "Gestion de projet & Conception",
-        "items": ["GitLab", "Draw.io", "Veille technologique IA"]
+        "items": ["GitLab", "Draw.io", "Trello"]
       },
       {
         "name": "Théorie & Transversal",
-        "items": ["Mathématiques appliquées", "Économie & Stratégie", "Droit et RGPD (lors de du mini concour DATAVIZ", "Communication professionnelle"]
+        "items": ["Mathématiques appliquées", "Économie Gestion", "Droit et RGPD (lors de du mini concour DATAVIZ", "Communication professionnelle"]
       }
     ]
   },
@@ -75,7 +75,7 @@
     },
     {
       "company": "Université Sorbonne Paris Nord",
-      "role": "Étudiant - SAÉ105 Anglais",
+      "role": "Étudiant - SAÉ 105 Anglais",
       "period": "Semestre 1",
       "location": "Epinay-Villetaneuse",
       "summary": "Analyse et présentation internationale de la Métropole de Lyon.",
@@ -86,7 +86,7 @@
         "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral."
       ]
     }
-  ],
+  ],  
   "projects": [
     { "id": "sae-101", "title": "Analyse et Requêtage SQL", "subtitle": "Traiter", "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.", "stack": ["SQL", "PostgreSQL"], "year": "2025", "highlight": false },
     { "id": "sae-102", "title": "Programmation Python", "subtitle": "Traiter", "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.", "stack": ["Python"], "year": "2025", "highlight": false },
