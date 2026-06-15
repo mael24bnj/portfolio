@@ -31,7 +31,7 @@ export function About() {
               {profile.qualities.map((quality, index) => (
                 <span
                   key={index}
-                  className="rounded-full border border-border-subtle px-2.5 py-0.5 text-xs text-text-muted"
+                  className="rounded-full border border-accent-purple px-3 py-1 text-sm font-medium text-text-primary"
                 >
                   {quality}
                 </span>

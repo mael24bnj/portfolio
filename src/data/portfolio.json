@@ -4,7 +4,7 @@
     "shortName": "Maël",
     "tagline": "Étudiant en BUT Science des Données",
     "role": "Data Science Student",
-    "specialization": "Data Analytics & IA",
+    "specialization": "Étudiant en BUT Science des Données à l'Université Sorbonne Paris Nord de Villetaneuse",
     "location": "Localisation :Champagne-sur-Oise, France",
     "yearsOfExperience": 1,
     "bio": "Actuellement en fin de première année de BUT Science des Données, j'ai toujours eu une meilleure affinité avec les maths qu'avec les langues. Au collège, j'ai joué sur cet avantage pour obtenir de bonnes notes, mais en troisième, une professeure m'a fait perdre toute envie d'aimer cette matière. Arrivé en seconde avec une moyenne fragile, j'ai choisi de m'orienter en STI2D pour reprendre les bases. Lors d'un entretien, mon professeur principal de physique-chimie m'a dit : « Maël, tu as une moyenne fragile en maths, mais je te fais confiance. J'étais nul en physique-chimie et regarde où je suis maintenant ». Il a validé mon passage, et j'ai terminé parmi les premiers de la promo. En STI2D, j'ai aussi rencontré ma professeure de spécialité SIN qui m'a conforté dans ma capacité à réussir dans le supérieur.\n\nMon projet professionnel est clair : je veux travailler dans la donnée. C'est un domaine en expansion qui va se transformer grâce à l'IA, et je veux être au premier rang de cette évolution. Au niveau de mes qualités, je suis super créatif et j'ai toujours des idées originales pour résoudre des problèmes. Sur mon temps libre, j'exploite les nouvelles IA pour étudier le marché, voir commentautomatiser des boutiques digitales ou concevoir des marques. Tout ce qui nécessitait autrefois un long apprentissage et beaucoup d'argent, je peux désormais le faire moi-même en un temps record.",
@@ -49,14 +49,15 @@
   "experience": [
     {
       "company": "Université Sorbonne Paris Nord",
-      "role": "Étudiant - SAÉ 201 Base de données ",
+      "role": "Étudiant - SAÉ 201 Base de données",
       "period": "Semestre 2",
       "location": "Epinay-Villetaneuse",
       "summary": "Transformation d'un jeu de données brut de l'État en une base relationnelle propre et interrogeable.",
+      "image": "/gallery/schema-sae201.png",
       "highlights": [
         "Réalisation : Conception de l'architecture (Modèle EA et Schéma Relationnel) et peuplement de la base avec 150 000 lignes.",
-        "Méthodologie : Utilisation de SQL avec des filtres stricts pour isoler les données corrompues et respect de la 3ème Forme Normale (3FN). Création de graphiques sur metabase pour analyser et commenter les données",
-        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgrsql au lieu de le faire avec des requètes lors de la création des graphiques sur metabase[cite: 3]."
+        "Méthodologie : Utilisation de SQL avec des filtres stricts pour isoler les données corrompues et respect de la 3ème Forme Normale (3FN). Création de graphiques sur metabase pour analyser et commenter les données.",
+        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgrsql au lieu de le faire avec des requètes lors de la création des graphiques sur metabase."
       ]
     },
     {
@@ -65,10 +66,11 @@
       "period": "Semestre 2",
       "location": "Epinay-Villetaneuse",
       "summary": "Immersion professionnelle via une interview avec Diana Lenar, Product Owner au CISIRH.",
+      "image": "/gallery/interview-sae207.png",
       "highlights": [
-        "Réalisation : Recherche d'une professionelle, Organisation de l'entretien, conduite de la visio et synthèse des pratiques d'une équipe data[cite: 3].",
-        "Méthodologie : Pour cette étude, j'ai identifié et interviewé une Product Owner du CISIRH afin d'analyser concrètement les interactions entre la gestion stratégique de projet et les impératifs techniques en environnement Data. Cette démarche a été structurée par une préparation rigoureuse des questions, la conduite d'un entretien de 32 minutes en visioconférence et une synthèse des enjeux à causes de l'IA sur les métiers et technologiques recueillis.[cite: 3].",
-        "Amélioration : Pour une prochaine fois, je préparerais des questions encore plus techniques sur les choix d'outils d'IA utilisés par son équipe pour anticiper les nouveaux métiers[cite: 3]."
+        "Réalisation : Recherche d'une professionnelle, Organisation de l'entretien, conduite de la visio et synthèse des pratiques d'une équipe data.",
+        "Méthodologie : J'ai contacté et interviewé une Product Owner du CISIRH pour comprendre comment une équipe gère ses projets data au quotidien. J'ai préparé mes questions à l'avance, mené l'entretien de 32 minutes en visio, puis synthétisé l'impact de l'évolution de l'IA sur leurs méthodes de travail.",
+        "Amélioration : Pour une prochaine fois, je préparerais des questions encore plus techniques sur les choix d'outils d'IA utilisés par son équipe pour anticiper les nouveaux métiers."
       ]
     },
     {
@@ -77,10 +79,11 @@
       "period": "Semestre 1",
       "location": "Epinay-Villetaneuse",
       "summary": "Analyse et présentation internationale de la Métropole de Lyon.",
+      "image": "/gallery/poster-sae105.jpg",
       "highlights": [
-        "Réalisation : Conception d'un poster créatif et présentation orale de 4 minutes devant un public anglophone[cite: 3].",
-        "Méthodologie : Synthèse d'informations géographiques et économiques complexes simplifiées pour un support visuel efficace[cite: 3].",
-        "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral[cite: 3]."
+        "Réalisation : Conception d'un poster créatif et présentation orale de 4 minutes devant un public anglophone.",
+        "Méthodologie : Synthèse d'informations géographiques et économiques complexes simplifiées pour un support visuel efficace.",
+        "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral."
       ]
     }
   ],
@@ -108,5 +111,10 @@
   "pourquoiSD": {
     "title": "Pourquoi la Science des Données ?",
     "content": "J’ai choisis la science des données car pendant ma terminal STI2D spécialité SIN j’ai particulièrement compris que j’aimais mélanger: les math, la communication oral pour présenter mon travaille malgré ma timidité que j’essaye de surmonter, l’informatique, et 2 BUT s'offrait à moi le BUT info et le BUT SD. En sachant qu’avec l’évolution démesuré de l’IA je me suis dis que le mieux serait de prendre la science des données plus tôt que l’informatique car le DATA ne peut pas disparaître à cause de l’IA car sans DATA il n’y pas de d’ia. Mais aussi car l’IA et le futur monde de la DATA vont évoluer et que je veux être au premier rang quand elle changera totalement pour en faire mon milieu professionnelle."
-  }
+  },
+  "objectives": [
+    "Long terme : Trouver ce que je veux faire, travailler dans la DATA et suivre son évolution avec l'IA.",
+    "Moyen terme : Finir mes études de BUT Science des Données puis poursuivre dans un master ou une école d'ingénieurs.",
+    "Court terme : Enrichir mes compétences et devenir encore plus assidu au sein de la formation BUT SD."
+  ]
 }

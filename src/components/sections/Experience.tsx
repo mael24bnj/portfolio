@@ -21,10 +21,12 @@ export function Experience() {
               transition={{ duration: 0.5, delay: index * 0.08 }}
               className="grid gap-6 border-t border-border-subtle py-10 md:grid-cols-[120px_1fr] md:gap-10"
             >
+              {/* Numéro de l'expérience */}
               <div className="text-chrome-gradient text-5xl font-light md:text-6xl">
                 {num}
               </div>
 
+              {/* Contenu textuel */}
               <div>
                 <div className="mb-3 flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
                   <h3 className="text-xl font-medium text-text-primary">
@@ -38,8 +40,9 @@ export function Experience() {
                 </p>
                 <p className="mb-4 text-text-primary/80">{item.summary}</p>
 
-                <ul className="space-y-2">
-                  {item.highlights.map((highlight) => (
+                {/* Liste des points clés */}
+                <ul className="space-y-2 mb-6">
+                  {item.highlights && item.highlights.map((highlight) => (
                     <li
                       key={highlight}
                       className="flex gap-3 text-sm text-text-muted before:mt-2 before:h-1 before:w-1 before:shrink-0 before:rounded-full before:bg-accent-purple before:content-['']"
@@ -48,6 +51,17 @@ export function Experience() {
                     </li>
                   ))}
                 </ul>
+
+                {/* Affichage de l'image de preuve si elle existe */}
+                {item.image && (
+                  <div className="mt-4 overflow-hidden rounded-lg border border-border-subtle max-w-xl bg-neutral-900/50 p-2">
+                    <img
+                      src={item.image}
+                      alt={`Preuve visuelle - ${item.role}`}
+                      className="rounded-md w-full h-auto object-cover max-h-[350px] hover:scale-[1.02] transition-transform duration-300"
+                    />
+                  </div>
+                )}
               </div>
             </motion.article>
           )
