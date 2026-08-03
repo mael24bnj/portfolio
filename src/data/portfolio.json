@@ -2,12 +2,12 @@
   "profile": {
     "name": "Maël BENJAMIN",
     "shortName": "Maël",
-    "tagline": "Étudiant en BUT Science des Données",
+    "tagline": "Ancien étudiant en BUT Science des Données | Futur étudiant en BTS SIO (en alternance)",
     "role": "Data Science Student",
-    "specialization": "Étudiant en BUT Science des Données à l'Université Sorbonne Paris Nord de Villetaneuse",
+    "specialization": "Ancien étudiant en BUT Science des Données | Futur étudiant en BTS SIO en alternance à l'école IRIS",
     "location": "Localisation :Champagne-sur-Oise, France",
     "yearsOfExperience": 1,
-    "bio": "Issu d'un parcours technologique (Bac STI2D option SIN) et fort d'une première année en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé de nombreuses compétences. Cette première expérience m'a apporté des bases précieuses et m'a permis de confirmer mon attrait pour les projets pratiques et les mises en situation en autonomie. Souhaitant m'orienter vers une voie en parfaite adéquation avec mes aspirations, j'ai fait le choix de me réorienter vers un BTS SIO à l'école IRIS, alliant Data et Développement Web.Passionné par l'innovation et l'intelligence artificielle, je me distingue par ma créativité et ma capacité à apprendre rapidement. Sur mon temps libre, je m'entraîne sur des projets personnels en expérimentant avec les outils d'IA et d'automatisation. Cela me permet de pratiquer l'optimisation de processus, l'étude de marché ou la recherche de concepts créatifs. Curieux et autonome, j'aime apprendre par la pratique et développer mes compétences sur le terrain.",
+    "bio": "Issu d'un parcours technologique (Bac STI2D option SIN) et fort d'une première année en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé de nombreuses compétences. Cette première expérience m'a apporté des bases précieuses et m'a permis de confirmer mon attrait pour les projets pratiques et les mises en situation en autonomie. Ayant fait le choix de me réorienter vers un BTS SIO à l'école IRIS, alliant Data et Développement Web, je suis désormais ancien étudiant en BUT SD et futur étudiant en BTS SIO en alternance. Passionné par l'innovation et l'intelligence artificielle, je me distingue par ma créativité et ma capacité à apprendre rapidement. Sur mon temps libre, je m'entraîne sur des projets personnels en expérimentant avec les outils d'IA et d'automatisation. Cela me permet de pratiquer l'optimisation de processus, l'étude de marché ou la recherche de concepts créatifs. Curieux et autonome, j'aime apprendre par la pratique et développer mes compétences sur le terrain.",
     "avatarSvg": "/avatar.png",
     "social": [
       {
@@ -282,11 +282,11 @@
   "gallery": [],
   "pourquoiSD": {
     "title": "Pourquoi la Data, le Web et l'IA ?",
-    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont permis de développer une vision claire des enjeux numériques actuels. Cette première expérience m'a convaincu d'une chose : pour être réellement performant dans la Data et l'IA demain, il faut maîtriser le développement. J'ai donc choisi de poursuivre en BTS SIO afin de coupler mes bases en Data avec des compétences en Développement Web. Cette double compétence est un levier indispensable pour la suite de mes études, où j'ambitionne d'intégrer un Bachelor puis un Master spécialisés en Intelligence Artificielle.\n\nFace à l'essor rapide de l'IA, le métier de simple analyste de données évolue : les tâches techniques exécutives sont de plus en plus automatisées. D'après les professionnels du secteur que j'ai eu la chance d'interviewer, l'avenir appartient aux profils capables d'intégrer directement des modèles d'IA au cœur des applications web et logiciels, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA).\n\nEn combinant Web, Data et IA, mon objectif est de me construire un profil hybride, complet et adaptable, capable de concevoir les solutions logicielles intelligentes de demain."
+    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont permis de développer une vision claire des enjeux numériques actuels. Cette première expérience m'a confirmé que pour être réellement performant dans la Data et l'IA demain, il faut maîtriser le développement. Ayant choisi de me réorienter vers un BTS SIO à l'école IRIS, je veux coupler mes bases en Data avec des compétences en Développement Web. Cette double compétence est un levier indispensable pour la suite de mes études, où j'ambitionne d'intégrer un Bachelor puis un Master spécialisés en Intelligence Artificielle.\n\nFace à l'essor rapide de l'IA, le métier de simple analyste de données évolue : les tâches techniques exécutives sont de plus en plus automatisées. D'après les professionnels du secteur que j'ai eu la chance d'interviewer, l'avenir appartient aux profils capables d'intégrer directement des modèles d'IA au cœur des applications web et logiciels, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA).\n\nEn combinant Web, Data et IA, mon objectif est de me construire un profil hybride, complet et adaptable, capable de concevoir les solutions logicielles intelligentes de demain."
   },
   "objectives": [
-    "Long terme : Trouver ce que je veux faire, travailler dans la DATA et suivre son évolution avec l'IA.",
-    "Moyen terme : Finir mes études de BUT Science des Données puis poursuivre dans un master ou une école d'ingénieurs.",
-    "Court terme : Enrichir mes compétences et devenir encore plus assidu au sein de la formation BUT SD."
+    "Court terme : Trouver mon alternance et valider mon BTS SIO à l'école IRIS en développant une double compétence solide en Développement Web et en Data.",
+    "Moyen terme : Poursuivre sur un Bachelor puis un Master spécialisés en Intelligence Artificielle pour maîtriser l'intégration de modèles d'IA au cœur d'applications web.",
+    "Long terme : Devenir un profil hybride capable d'architecturer des solutions intelligentes et de piloter des projets innovants mêlant Web, Data et IA."
   ]
 }
