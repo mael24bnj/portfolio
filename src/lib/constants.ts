@@ -9,23 +9,23 @@ export const NAV_ITEMS = [
 
 export const SERVICES = [
   {
-    title: 'Backend',
+    title: 'Développement backend',
     description:
-      'Robust APIs, data pipelines, and server-side logic built for scale and reliability.',
+      'APIs robustes, pipelines de données et logique côté serveur conçus pour la scale et la fiabilité.',
   },
   {
-    title: 'AI / LLM',
+    title: 'Intelligence artificielle / LLM',
     description:
-      'Fine-tuning, RAG systems, and intelligent automation powered by modern ML frameworks.',
+      'Fine-tuning, systèmes RAG et automatisation intelligente propulsés par les frameworks ML modernes.',
   },
   {
-    title: 'Frontend',
+    title: 'Développement frontend',
     description:
-      'Interactive dashboards and data visualizations with React, D3, and responsive design.',
+      'Tableaux de bord interactifs et visualisations de données avec React, D3 et design réactif.',
   },
   {
-    title: 'Cloud',
+    title: 'Infrastructure cloud',
     description:
-      'Deployment, containerization, and cloud infrastructure on AWS and Docker.',
+      'Déploiement, conteneurisation et infrastructure cloud sur AWS et Docker.',
   },
 ] as const

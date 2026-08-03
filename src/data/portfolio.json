@@ -7,11 +7,19 @@
     "specialization": "Étudiant en BUT Science des Données à l'Université Sorbonne Paris Nord de Villetaneuse",
     "location": "Localisation :Champagne-sur-Oise, France",
     "yearsOfExperience": 1,
-    "bio": "Actuellement en fin de première année de BUT Science des Données, j'ai toujours eu une meilleure affinité avec les maths qu'avec les langues. Au collège, j'ai joué sur cet avantage pour obtenir de bonnes notes, mais en troisième, une professeure m'a fait perdre toute envie d'aimer cette matière. Arrivé en seconde avec une moyenne fragile, j'ai choisi de m'orienter en STI2D pour reprendre les bases. Lors d'un entretien, mon professeur principal de physique-chimie m'a dit : « Maël, tu as une moyenne fragile en maths, mais je te fais confiance. J'étais nul en physique-chimie et regarde où je suis maintenant ». Il a validé mon passage, et j'ai terminé parmi les premiers de la promo. En STI2D, j'ai aussi rencontré ma professeure de spécialité SIN qui m'a conforté dans ma capacité à réussir dans le supérieur.\n\nMon projet professionnel est clair : je veux travailler dans la donnée. C'est un domaine en expansion qui va se transformer grâce à l'IA, et je veux être au premier rang de cette évolution. Au niveau de mes qualités, je suis super créatif et j'ai toujours des idées originales pour résoudre des problèmes. Sur mon temps libre, j'exploite les nouvelles IA pour étudier le marché, voir commentautomatiser des boutiques digitales ou concevoir des marques. Tout ce qui nécessitait autrefois un long apprentissage et beaucoup d'argent, je peux désormais le faire moi-même en un temps record.",
+    "bio": "Issu d'un parcours technologique (Bac STI2D option SIN) et fort d'une première année en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé de nombreuses compétences. Cette première expérience m'a apporté des bases précieuses et m'a permis de confirmer mon attrait pour les projets pratiques et les mises en situation en autonomie. Souhaitant m'orienter vers une voie en parfaite adéquation avec mes aspirations, j'ai fait le choix de me réorienter vers un BTS SIO à l'école IRIS, alliant Data et Développement Web.Passionné par l'innovation et l'intelligence artificielle, je me distingue par ma créativité et ma capacité à apprendre rapidement. Sur mon temps libre, je m'entraîne sur des projets personnels en expérimentant avec les outils d'IA et d'automatisation. Cela me permet de pratiquer l'optimisation de processus, l'étude de marché ou la recherche de concepts créatifs. Curieux et autonome, j'aime apprendre par la pratique et développer mes compétences sur le terrain.",
     "avatarSvg": "/avatar.png",
     "social": [
-      { "platform": "github", "url": "https://github.com/mael24bnj", "label": "GitHub" },
-      { "platform": "email", "url": "maelbenjamin10@gmail.com", "label": "Email : maelbenjamin10gmail.com" }
+      {
+        "platform": "github",
+        "url": "https://github.com/mael24bnj",
+        "label": "GitHub"
+      },
+      {
+        "platform": "email",
+        "url": "mailto:maelbenjamin10@gmail.com",
+        "label": "Email: maelbenjamin10@gmail.com"
+      }
     ],
     "qualities": [
       "Créatif",
@@ -26,23 +34,46 @@
     "categories": [
       {
         "name": "Bases de données & SGBD",
-        "items": ["PostgreSQL", "SQL", "Metabase"]
+        "items": [
+          "PostgreSQL",
+          "SQL",
+          "Metabase"
+        ]
       },
       {
         "name": "Programmation & Analyse",
-        "items": ["Python", "R", "Statistiques", "Probabilités", "Modélisation"]
+        "items": [
+          "Python",
+          "R",
+          "Statistiques",
+          "Probabilités",
+          "Modélisation"
+        ]
       },
       {
         "name": "Logiciels & DataViz",
-        "items": ["Excel", "Tableau Software", "R Studio"]
+        "items": [
+          "Excel",
+          "Tableau Software",
+          "R Studio"
+        ]
       },
       {
         "name": "Gestion de projet & Conception",
-        "items": ["GitLab", "Draw.io", "Trello"]
+        "items": [
+          "GitLab",
+          "Draw.io",
+          "Trello"
+        ]
       },
       {
         "name": "Théorie & Transversal",
-        "items": ["Mathématiques appliquées", "Économie Gestion", "Droit et RGPD (lors de du mini concour DATAVIZ", "Communication professionnelle"]
+        "items": [
+          "Mathématiques appliquées",
+          "Économie Gestion",
+          "Droit et RGPD (lors de du mini concour DATAVIZ",
+          "Communication professionnelle"
+        ]
       }
     ]
   },
@@ -86,31 +117,172 @@
         "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral."
       ]
     }
-  ],  
+  ],
   "projects": [
-    { "id": "sae-101", "title": "Analyse et Requêtage SQL", "subtitle": "Traiter", "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.", "stack": ["SQL", "PostgreSQL"], "year": "2025", "highlight": false },
-    { "id": "sae-102", "title": "Programmation Python", "subtitle": "Traiter", "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.", "stack": ["Python"], "year": "2025", "highlight": false },
-    { "id": "sae-201", "title": "Modélisation et Nettoyage PostgreSQL", "subtitle": "Traiter, Analyser", "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.", "stack": ["PostgreSQL", "SQL"], "year": "2026", "highlight": false },
-    { "id": "sae-202", "title": "Statistiques Inférentielles et Simulation R", "subtitle": "Traiter, Analyser", "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.", "stack": ["R", "Statistiques"], "year": "2026", "highlight": false },
-    { "id": "sae-106", "title": "Analyse Statistique", "subtitle": "Analyser", "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.", "stack": ["Statistiques", "Excel"], "year": "2025", "highlight": false },
-    { "id": "sae-104", "title": "Écosystème Data (Axone Data)", "subtitle": "Analyser, Valoriser", "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.", "stack": ["Analyse Stratégique"], "year": "2025", "highlight": false },
-    { "id": "sae-205", "title": "Analyse de Rentabilité", "subtitle": "Analyser, Valoriser", "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.", "stack": ["Excel", "Finance"], "year": "2026", "highlight": false },
-    { "id": "sae-204", "title": "Cartographie et Analyse Démographique", "subtitle": "Analyser, Valoriser", "description": "Analyse de la population jeune, calcul de TVAM and cartographie pour prouver des théories socio-économiques.", "stack": ["Tableau", "Excel", "DataViz"], "year": "2026", "highlight": true },
-    { "id": "sae-103", "title": "Dashboarding Excel", "subtitle": "Traiter, Valoriser", "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.", "stack": ["Excel", "DataViz"], "year": "2025", "highlight": false },
-    { "id": "sae-105", "title": "Analyse Territoriale (Projet Anglais)", "subtitle": "Analyser, Valoriser", "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.", "stack": ["Design", "Anglais"], "year": "2025", "highlight": false },
-    { "id": "sae-206", "title": "Projet DataViz : Village des Trois Âges", "subtitle": "Traiter, Analyser, Valoriser", "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.", "stack": ["Tableau", "R", "Excel"], "year": "2026", "highlight": true },
-    { "id": "sae-207", "title": "Immersion Professionnelle", "subtitle": "Valoriser", "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.", "stack": ["Communication", "Networking"], "year": "2026", "highlight": false }
+    {
+      "id": "sae-101",
+      "title": "Analyse et Requêtage SQL",
+      "subtitle": "Traiter",
+      "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.",
+      "stack": [
+        "SQL",
+        "PostgreSQL"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-102",
+      "title": "Programmation Python",
+      "subtitle": "Traiter",
+      "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.",
+      "stack": [
+        "Python"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-201",
+      "title": "Modélisation et Nettoyage PostgreSQL",
+      "subtitle": "Traiter, Analyser",
+      "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.",
+      "stack": [
+        "PostgreSQL",
+        "SQL"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
+      "id": "sae-202",
+      "title": "Statistiques Inférentielles et Simulation R",
+      "subtitle": "Traiter, Analyser",
+      "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.",
+      "stack": [
+        "R",
+        "Statistiques"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
+      "id": "sae-106",
+      "title": "Analyse Statistique",
+      "subtitle": "Analyser",
+      "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.",
+      "stack": [
+        "Statistiques",
+        "Excel"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-104",
+      "title": "Écosystème Data (Axone Data)",
+      "subtitle": "Analyser, Valoriser",
+      "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.",
+      "stack": [
+        "Analyse Stratégique"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-205",
+      "title": "Analyse de Rentabilité",
+      "subtitle": "Analyser, Valoriser",
+      "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.",
+      "stack": [
+        "Excel",
+        "Finance"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
+      "id": "sae-204",
+      "title": "Cartographie et Analyse Démographique",
+      "subtitle": "Analyser, Valoriser",
+      "description": "Analyse de la population jeune, calcul de TVAM and cartographie pour prouver des théories socio-économiques.",
+      "stack": [
+        "Tableau",
+        "Excel",
+        "DataViz"
+      ],
+      "year": "2026",
+      "highlight": true
+    },
+    {
+      "id": "sae-103",
+      "title": "Dashboarding Excel",
+      "subtitle": "Traiter, Valoriser",
+      "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.",
+      "stack": [
+        "Excel",
+        "DataViz"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-105",
+      "title": "Analyse Territoriale (Projet Anglais)",
+      "subtitle": "Analyser, Valoriser",
+      "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.",
+      "stack": [
+        "Design",
+        "Anglais"
+      ],
+      "year": "2025",
+      "highlight": false
+    },
+    {
+      "id": "sae-206",
+      "title": "Projet DataViz : Village des Trois Âges",
+      "subtitle": "Traiter, Analyser, Valoriser",
+      "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.",
+      "stack": [
+        "Tableau",
+        "R",
+        "Excel"
+      ],
+      "year": "2026",
+      "highlight": true
+    },
+    {
+      "id": "sae-207",
+      "title": "Immersion Professionnelle",
+      "subtitle": "Valoriser",
+      "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.",
+      "stack": [
+        "Communication",
+        "Networking"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
+      "id": "stick-clash",
+      "title": "Stick Clash (Jeu Web)",
+      "subtitle": "Projet Personnel · Entraînement",
+      "description": "Projet personnel développé pour m'entraîner au développement de jeux web interactifs et à la logique d'animation.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "year": "2026",
+      "highlight": false,
+      "link": "https://stickclash.netlify.app/"
+    }
   ],
   "testimonials": [],
-  "gallery": [
-    { "id": "g1", "imageUrl": "/gallery/photo-06.jpg", "altText": "Portrait détouré" },
-    { "id": "g2", "imageUrl": "/gallery/photo-02.jpg", "altText": "Photo streetwear 1" },
-    { "id": "g3", "imageUrl": "/gallery/photo-03.jpg", "altText": "Photo streetwear 2" },
-    { "id": "g4", "imageUrl": "/gallery/photo-05.jpg", "altText": "Portrait" }
-  ],
+  "gallery": [],
   "pourquoiSD": {
-    "title": "Pourquoi la Science des Données ?",
-    "content": "J’ai choisis la science des données car pendant ma terminal STI2D spécialité SIN j’ai particulièrement compris que j’aimais mélanger: les math, la communication oral pour présenter mon travaille malgré ma timidité que j’essaye de surmonter, l’informatique, et 2 BUT s'offrait à moi le BUT info et le BUT SD. En sachant qu’avec l’évolution démesuré de l’IA je me suis dis que le mieux serait de prendre la science des données plus tôt que l’informatique car le DATA ne peut pas disparaître à cause de l’IA car sans DATA il n’y pas de d’ia. Mais aussi car l’IA et le futur monde de la DATA vont évoluer et que je veux être au premier rang quand elle changera totalement pour en faire mon milieu professionnelle."
+    "title": "Pourquoi la Data, le Web et l'IA ?",
+    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont permis de développer une vision claire des enjeux numériques actuels. Cette première expérience m'a convaincu d'une chose : pour être réellement performant dans la Data et l'IA demain, il faut maîtriser le développement. J'ai donc choisi de poursuivre en BTS SIO afin de coupler mes bases en Data avec des compétences en Développement Web. Cette double compétence est un levier indispensable pour la suite de mes études, où j'ambitionne d'intégrer un Bachelor puis un Master spécialisés en Intelligence Artificielle.\n\nFace à l'essor rapide de l'IA, le métier de simple analyste de données évolue : les tâches techniques exécutives sont de plus en plus automatisées. D'après les professionnels du secteur que j'ai eu la chance d'interviewer, l'avenir appartient aux profils capables d'intégrer directement des modèles d'IA au cœur des applications web et logiciels, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA).\n\nEn combinant Web, Data et IA, mon objectif est de me construire un profil hybride, complet et adaptable, capable de concevoir les solutions logicielles intelligentes de demain."
   },
   "objectives": [
     "Long terme : Trouver ce que je veux faire, travailler dans la DATA et suivre son évolution avec l'IA.",
