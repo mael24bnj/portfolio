@@ -2,12 +2,12 @@
   "profile": {
     "name": "Maël BENJAMIN",
     "shortName": "Maël",
-    "tagline": "Ancien étudiant en BUT Science des Données | Futur étudiant en BTS SIO (en alternance)",
-    "role": "Data Science Student",
-    "specialization": "Ancien étudiant en BUT Science des Données | Futur étudiant en BTS SIO en alternance à l'école IRIS",
-    "location": "Localisation :Champagne-sur-Oise, France",
+    "tagline": "Étudiant Graduate Développeur IA chez Studi • 1ère année BUT Science des Données validée | À la recherche d'une alternance de 24 mois",
+    "role": "Développeur Full Stack & IA",
+    "specialization": "Développeur Full Stack & IA | Étudiant chez Studi",
+    "location": "Localisation : Champagne-sur-Oise, Île-de-France",
     "yearsOfExperience": 1,
-    "bio": "Issu d'un parcours technologique (Bac STI2D option SIN) et fort d'une première année en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé de nombreuses compétences. Cette première expérience m'a apporté des bases précieuses et m'a permis de confirmer mon attrait pour les projets pratiques et les mises en situation en autonomie. Ayant fait le choix de me réorienter vers un BTS SIO à l'école IRIS, alliant Data et Développement Web, je suis désormais ancien étudiant en BUT SD et futur étudiant en BTS SIO en alternance. Passionné par l'innovation et l'intelligence artificielle, je me distingue par ma créativité et ma capacité à apprendre rapidement. Sur mon temps libre, je m'entraîne sur des projets personnels en expérimentant avec les outils d'IA et d'automatisation. Cela me permet de pratiquer l'optimisation de processus, l'étude de marché ou la recherche de concepts créatifs. Curieux et autonome, j'aime apprendre par la pratique et développer mes compétences sur le terrain.",
+    "bio": "Issu d'un parcours technologique (Bac STI2D spécialité SIN terminé parmi les premiers de promotion) et fort d'une première année validée en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé une solide rigueur en modélisation et traitement de données. Convaincu que l'avenir de la tech repose sur l'interconnexion entre le développement logiciel et les modèles génératifs, j'intègre le cursus Graduate Développeur IA chez Studi. Mon objectif : concevoir des applications web interactives, automatiser des flux et interfacer des modèles d'IA au cœur des architectures logicielles. Autonome et passionné d'expérimentation, j'ai notamment configuré un environnement CLI alternatif de routage multi-LLM pour assister mon flux de travail et développé des projets web complets. Je recherche une alternance de 24 mois en Île-de-France pour m'investir concrètement au sein d'une équipe agile.",
     "avatarSvg": "/avatar.png",
     "social": [
       {
@@ -23,7 +23,7 @@
     ],
     "qualities": [
       "Créatif",
-      "À l’écoute",
+      "À l'écoute",
       "Curieux",
       "Respectueux",
       "Adaptatif",
@@ -33,46 +33,44 @@
   "skills": {
     "categories": [
       {
-        "name": "Bases de données & SGBD",
+        "name": "IA & Automatisation",
         "items": [
-          "PostgreSQL",
-          "SQL",
-          "Metabase"
+          "Modèles de Langage (LLM)",
+          "Intégration API REST (Claude, OpenAI)",
+          "Routage d'API alternatives",
+          "CLI Automation",
+          "Prompt Engineering technique"
         ]
       },
       {
-        "name": "Programmation & Analyse",
+        "name": "Développement Web & Logiciel",
         "items": [
           "Python",
-          "R",
-          "Statistiques",
-          "Probabilités",
-          "Modélisation"
+          "JavaScript (ES6+)",
+          "HTML5 / CSS3",
+          "Architecture MVC",
+          "Requêtes HTTP / REST"
         ]
       },
       {
-        "name": "Logiciels & DataViz",
+        "name": "Data & SGBD",
         "items": [
-          "Excel",
+          "PostgreSQL",
+          "SQL (Requêtes avancées, 3FN)",
+          "Metabase",
           "Tableau Software",
-          "R Studio"
+          "R / RStudio",
+          "Conformité RGPD"
         ]
       },
       {
-        "name": "Gestion de projet & Conception",
+        "name": "Outils & DevOps",
         "items": [
-          "GitLab",
+          "Git / GitHub",
+          "Netlify (CI/CD)",
+          "Linux / Terminal",
           "Draw.io",
           "Trello"
-        ]
-      },
-      {
-        "name": "Théorie & Transversal",
-        "items": [
-          "Mathématiques appliquées",
-          "Économie Gestion",
-          "Droit et RGPD (lors de du mini concour DATAVIZ",
-          "Communication professionnelle"
         ]
       }
     ]
@@ -88,7 +86,7 @@
       "highlights": [
         "Réalisation : Conception de l'architecture (Modèle EA et Schéma Relationnel) et peuplement de la base avec 150 000 lignes.",
         "Méthodologie : Utilisation de SQL avec des filtres stricts pour isoler les données corrompues et respect de la 3ème Forme Normale (3FN). Création de graphiques sur metabase pour analyser et commenter les données.",
-        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgrsql au lieu de le faire avec des requètes lors de la création des graphiques sur metabase."
+        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgreSQL au lieu de le faire avec des requêtes lors de la création des graphiques sur metabase."
       ]
     },
     {
@@ -120,6 +118,75 @@
   ],
   "projects": [
     {
+      "id": "cli-multi-llm",
+      "title": "Assistant CLI Multi-LLM",
+      "subtitle": "IA, Python & CLI Automation",
+      "description": "Configuration d'un environnement en ligne de commande alternatif. Routage dynamique des requêtes vers des API IA tierces gratuites et automatisation de tâches.",
+      "stack": [
+        "Python",
+        "API REST",
+        "CLI",
+        "Git"
+      ],
+      "year": "2026",
+      "highlight": true
+    },
+    {
+      "id": "portfolio-web",
+      "title": "Site Portfolio Web Responsive",
+      "subtitle": "Développement Full Stack & Intégration IA",
+      "description": "Conception, développement et mise en production de mon site vitrine. Architecture prototypée via assistant IA CLI, refactorisation manuelle et déploiement continu.",
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Netlify"
+      ],
+      "year": "2026",
+      "highlight": true,
+      "link": "https://portfolio-mael-bnj.netlify.app/"
+    },
+    {
+      "id": "stick-clash",
+      "title": "Stick Clash (Jeu Web)",
+      "subtitle": "Projet Personnel · Algorithmique",
+      "description": "Jeu 2D interactif dans le navigateur. Prototypage de la boucle d'animation assisté par IA, suivi d'un débogage manuel approfondi de la logique et des collisions.",
+      "stack": [
+        "JavaScript",
+        "CSS3",
+        "HTML5"
+      ],
+      "year": "2026",
+      "highlight": true,
+      "link": "https://stickclash.netlify.app/"
+    },
+    {
+      "id": "sae-201",
+      "title": "Modélisation et Pipeline PostgreSQL",
+      "subtitle": "Data Engineering & SQL",
+      "description": "Conception d'un schéma relationnel (3FN) et injection de 150 000 lignes. Requêtage avancé, gestion des erreurs de saisie et nettoyage de la base.",
+      "stack": [
+        "PostgreSQL",
+        "SQL",
+        "Metabase"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
+      "id": "sae-206",
+      "title": "Dataviz : Village des Trois Âges",
+      "subtitle": "Traiter, Analyser, Valoriser",
+      "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet sur des données d'infrastructures locales.",
+      "stack": [
+        "Tableau",
+        "R",
+        "Excel"
+      ],
+      "year": "2026",
+      "highlight": false
+    },
+    {
       "id": "sae-101",
       "title": "Analyse et Requêtage SQL",
       "subtitle": "Traiter",
@@ -140,18 +207,6 @@
         "Python"
       ],
       "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-201",
-      "title": "Modélisation et Nettoyage PostgreSQL",
-      "subtitle": "Traiter, Analyser",
-      "description": "Nettoyage complexe de bases, gestion des erreurs de saisie et requêtage avancé pour fiabiliser les données.",
-      "stack": [
-        "PostgreSQL",
-        "SQL"
-      ],
-      "year": "2026",
       "highlight": false
     },
     {
@@ -205,14 +260,14 @@
       "id": "sae-204",
       "title": "Cartographie et Analyse Démographique",
       "subtitle": "Analyser, Valoriser",
-      "description": "Analyse de la population jeune, calcul de TVAM and cartographie pour prouver des théories socio-économiques.",
+      "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.",
       "stack": [
         "Tableau",
         "Excel",
         "DataViz"
       ],
       "year": "2026",
-      "highlight": true
+      "highlight": false
     },
     {
       "id": "sae-103",
@@ -239,19 +294,6 @@
       "highlight": false
     },
     {
-      "id": "sae-206",
-      "title": "Projet DataViz : Village des Trois Âges",
-      "subtitle": "Traiter, Analyser, Valoriser",
-      "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet.",
-      "stack": [
-        "Tableau",
-        "R",
-        "Excel"
-      ],
-      "year": "2026",
-      "highlight": true
-    },
-    {
       "id": "sae-207",
       "title": "Immersion Professionnelle",
       "subtitle": "Valoriser",
@@ -262,31 +304,17 @@
       ],
       "year": "2026",
       "highlight": false
-    },
-    {
-      "id": "stick-clash",
-      "title": "Stick Clash (Jeu Web)",
-      "subtitle": "Projet Personnel · Entraînement",
-      "description": "Projet personnel développé pour m'entraîner au développement de jeux web interactifs et à la logique d'animation.",
-      "stack": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "year": "2026",
-      "highlight": false,
-      "link": "https://stickclash.netlify.app/"
     }
   ],
   "testimonials": [],
   "gallery": [],
   "pourquoiSD": {
     "title": "Pourquoi la Data, le Web et l'IA ?",
-    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont permis de développer une vision claire des enjeux numériques actuels. Cette première expérience m'a confirmé que pour être réellement performant dans la Data et l'IA demain, il faut maîtriser le développement. Ayant choisi de me réorienter vers un BTS SIO à l'école IRIS, je veux coupler mes bases en Data avec des compétences en Développement Web. Cette double compétence est un levier indispensable pour la suite de mes études, où j'ambitionne d'intégrer un Bachelor puis un Master spécialisés en Intelligence Artificielle.\n\nFace à l'essor rapide de l'IA, le métier de simple analyste de données évolue : les tâches techniques exécutives sont de plus en plus automatisées. D'après les professionnels du secteur que j'ai eu la chance d'interviewer, l'avenir appartient aux profils capables d'intégrer directement des modèles d'IA au cœur des applications web et logiciels, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA).\n\nEn combinant Web, Data et IA, mon objectif est de me construire un profil hybride, complet et adaptable, capable de concevoir les solutions logicielles intelligentes de demain."
+    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont appris une chose essentielle : la valeur de la donnée ne s'exprime pleinement que si elle est connectée à une application utile.\n\nAujourd'hui, l'essor de l'IA générative transforme l'analyse de données classique : l'enjeu n'est plus seulement d'extraire des chiffres, mais d'interfacer des modèles d'IA directement au cœur du code applicatif. En rejoignant le cursus Graduate Développeur IA de Studi, je fais converger mes compétences analytiques (SQL, Python, statistiques) vers le génie logiciel full stack et le pilotage d'API.\n\nCe profil hybride me permet de concevoir des solutions automatisées de bout en bout, de la base de données relationnelle jusqu'à l'interface utilisateur, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA)."
   },
   "objectives": [
-    "Court terme : Trouver mon alternance et valider mon BTS SIO à l'école IRIS en développant une double compétence solide en Développement Web et en Data.",
-    "Moyen terme : Poursuivre sur un Bachelor puis un Master spécialisés en Intelligence Artificielle pour maîtriser l'intégration de modèles d'IA au cœur d'applications web.",
-    "Long terme : Devenir un profil hybride capable d'architecturer des solutions intelligentes et de piloter des projets innovants mêlant Web, Data et IA."
+    "Court terme : Valider mon titre Graduate Développeur IA chez Studi et réussir mon alternance de 24 mois en Île-de-France en intégrant une équipe tech agile.",
+    "Moyen terme : Déployer en production des pipelines connectant des bases relationnelles à des modèles d'IA et concevoir des applications web scalables.",
+    "Long terme : Devenir Tech Lead ou Architecte IA et Logiciel, capable de piloter l'intégration de systèmes intelligents au sein de produits digitaux innovants."
   ]
 }
