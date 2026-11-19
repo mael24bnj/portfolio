@@ -1,77 +1,56 @@
-export interface SocialLink {
-  platform: string
-  url: string
+export type ProfileMode = 'dev_ia' | 'data'
+
+export type LinkKind = 'github' | 'linkedin' | 'email'
+
+export interface ProfileLink {
+  kind: LinkKind
   label: string
+  url: string
+  display: string
 }
 
 export interface Profile {
   name: string
-  shortName: string
-  tagline: string
-  role: string
-  specialization: string
+  handle: string
+  photo: string
+  search: string
+  availability: string
   location: string
-  yearsOfExperience: number
-  bio: string
-  avatarSvg: string
-  social: SocialLink[]
-  qualities?: string[]
+  mobility: string
+  roles: Record<ProfileMode, string>
+  summaries: Record<ProfileMode, string>
+  qualities: Record<ProfileMode, string[]>
+  links: ProfileLink[]
 }
 
-export interface SkillCategory {
-  name: string
+export interface EducationEntry {
+  years: string
+  title: string
+  school?: string
+  note?: string
+  current?: boolean
+}
+
+export interface SkillGroup {
+  domain: string
   items: string[]
-}
-
-export interface Experience {
-  company: string
-  role: string
-  period: string
-  location: string
-  summary: string
-  highlights: string[]
 }
 
 export interface Project {
   id: string
+  domain: ProfileMode
+  file: string
   title: string
-  subtitle: string
-  description: string
+  context: string
+  metric?: { value: string; label: string }
+  points: string[]
   stack: string[]
-  role?: string
-  year: string
-  link?: string
-  image?: string
-  highlight: boolean
-}
-
-export interface Testimonial {
-  id: string
-  quote: string
-  name: string
-  role: string
-  avatarColor: string
-}
-
-export interface GalleryItem {
-  id: string
-  imageUrl: string
-  altText: string
-}
-
-export interface PourquoiSD {
-  title: string
-  content: string
+  links?: { label: string; url: string }[]
 }
 
 export interface PortfolioData {
   profile: Profile
-  skills: {
-    categories: SkillCategory[]
-  }
-  experience: Experience[]
+  education: EducationEntry[]
+  skills: Record<ProfileMode, SkillGroup[]>
   projects: Project[]
-  testimonials: Testimonial[]
-  gallery: GalleryItem[]
-  pourquoiSD: PourquoiSD
 }

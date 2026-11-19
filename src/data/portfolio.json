@@ -1,320 +1,138 @@
 {
   "profile": {
-    "name": "Maël BENJAMIN",
-    "shortName": "Maël",
-    "tagline": "Étudiant Graduate Développeur IA chez Studi • 1ère année BUT Science des Données validée | À la recherche d'une alternance de 24 mois",
-    "role": "Développeur Full Stack & IA",
-    "specialization": "Développeur Full Stack & IA | Étudiant chez Studi",
-    "location": "Localisation : Champagne-sur-Oise, Île-de-France",
-    "yearsOfExperience": 1,
-    "bio": "Issu d'un parcours technologique (Bac STI2D spécialité SIN terminé parmi les premiers de promotion) et fort d'une première année validée en BUT Science des Données à l'Université Sorbonne Paris Nord, j'ai développé une solide rigueur en modélisation et traitement de données. Convaincu que l'avenir de la tech repose sur l'interconnexion entre le développement logiciel et les modèles génératifs, j'intègre le cursus Graduate Développeur IA chez Studi. Mon objectif : concevoir des applications web interactives, automatiser des flux et interfacer des modèles d'IA au cœur des architectures logicielles. Autonome et passionné d'expérimentation, j'ai notamment configuré un environnement CLI alternatif de routage multi-LLM pour assister mon flux de travail et développé des projets web complets. Je recherche une alternance de 24 mois en Île-de-France pour m'investir concrètement au sein d'une équipe agile.",
-    "avatarSvg": "/avatar.png",
-    "social": [
-      {
-        "platform": "github",
-        "url": "https://github.com/mael24bnj",
-        "label": "GitHub"
-      },
-      {
-        "platform": "email",
-        "url": "mailto:maelbenjamin10@gmail.com",
-        "label": "Email: maelbenjamin10@gmail.com"
-      }
-    ],
-    "qualities": [
-      "Créatif",
-      "À l'écoute",
-      "Curieux",
-      "Respectueux",
-      "Adaptatif",
-      "Ponctuel"
+    "name": "Maël Benjamin",
+    "handle": "mael_benjamin",
+    "photo": "/avatar.png",
+    "search": "Alternance 2 ans",
+    "availability": "immédiate — rythme d'alternance flexible",
+    "location": "Champagne-sur-Oise (95)",
+    "mobility": "Île-de-France / Paris",
+    "roles": {
+      "dev_ia": "Développeur Python & Intégration IA",
+      "data": "Data Analyst"
+    },
+    "summaries": {
+      "dev_ia": "Étudiant en Graduate Développeur IA (STUDI CFA, 2026-2028), je recherche une alternance de 2 ans en développement Python et intégration d'IA générative. Je configure des agents IA (Claude Code, API Anthropic et OpenAI) et je les connecte à des services externes pour automatiser des tâches, et je maîtrise toute la chaîne d'une application : Python, API REST, PostgreSQL, JavaScript et déploiement. Mon année de BUT Science des Données m'a donné une vraie rigueur sur la donnée. Autonome, persévérant et attaché au concret, je rattache chaque compétence à un projet publié.",
+      "data": "Étudiant en Graduate Développeur IA (STUDI CFA, 2026-2028) après une première année de BUT Science des Données, je recherche une alternance de 2 ans en analyse de données. Je maîtrise la chaîne complète de la donnée : collecte, nettoyage et modélisation en SQL/PostgreSQL, analyse statistique en Python et R, puis restitution dans des tableaux de bord Metabase et Tableau. J'ai travaillé sur des données médicales réelles (CH Delafontaine) dans le respect du RGPD et sur des données publiques INSEE. Rigoureux, autonome et orienté résultats, je transforme des données brutes en indicateurs exploitables."
+    },
+    "qualities": {
+      "dev_ia": ["Autonome", "Persévérant", "Attaché au concret"],
+      "data": ["Rigoureux", "Autonome", "Orienté résultats"]
+    },
+    "links": [
+      { "kind": "github", "label": "GitHub", "url": "https://github.com/mael24bnj", "display": "github.com/mael24bnj" },
+      { "kind": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/mael-benjamin", "display": "linkedin.com/in/mael-benjamin" },
+      { "kind": "email", "label": "E-mail", "url": "mailto:maelbenjamin10@gmail.com", "display": "maelbenjamin10@gmail.com" }
     ]
   },
-  "skills": {
-    "categories": [
-      {
-        "name": "IA & Automatisation",
-        "items": [
-          "Modèles de Langage (LLM)",
-          "Intégration API REST (Claude, OpenAI)",
-          "Routage d'API alternatives",
-          "CLI Automation",
-          "Prompt Engineering technique"
-        ]
-      },
-      {
-        "name": "Développement Web & Logiciel",
-        "items": [
-          "Python",
-          "JavaScript (ES6+)",
-          "HTML5 / CSS3",
-          "Architecture MVC",
-          "Requêtes HTTP / REST"
-        ]
-      },
-      {
-        "name": "Data & SGBD",
-        "items": [
-          "PostgreSQL",
-          "SQL (Requêtes avancées, 3FN)",
-          "Metabase",
-          "Tableau Software",
-          "R / RStudio",
-          "Conformité RGPD"
-        ]
-      },
-      {
-        "name": "Outils & DevOps",
-        "items": [
-          "Git / GitHub",
-          "Netlify (CI/CD)",
-          "Linux / Terminal",
-          "Draw.io",
-          "Trello"
-        ]
-      }
-    ]
-  },
-  "experience": [
+  "education": [
     {
-      "company": "Université Sorbonne Paris Nord",
-      "role": "Étudiant - SAÉ 201 Base de données",
-      "period": "Semestre 2",
-      "location": "Epinay-Villetaneuse",
-      "summary": "Transformation d'un jeu de données brut de l'État en une base relationnelle propre et interrogeable.",
-      "image": "/gallery/schema-sae201.png",
-      "highlights": [
-        "Réalisation : Conception de l'architecture (Modèle EA et Schéma Relationnel) et peuplement de la base avec 150 000 lignes.",
-        "Méthodologie : Utilisation de SQL avec des filtres stricts pour isoler les données corrompues et respect de la 3ème Forme Normale (3FN). Création de graphiques sur metabase pour analyser et commenter les données.",
-        "Amélioration : Si je devais refaire ce projet, je consacrerais plus de temps sur la partie nettoyage des données sur postgreSQL au lieu de le faire avec des requêtes lors de la création des graphiques sur metabase."
-      ]
+      "years": "2026 – 2028",
+      "title": "Graduate Développeur IA",
+      "school": "STUDI CFA",
+      "note": "Admis, en recherche d'alternance",
+      "current": true
     },
     {
-      "company": "Université Sorbonne Paris Nord",
-      "role": "Étudiant - SAÉ 207 (Découverte métier)",
-      "period": "Semestre 2",
-      "location": "Epinay-Villetaneuse",
-      "summary": "Immersion professionnelle via une interview avec Diana Lenar, Product Owner au CISIRH.",
-      "image": "/gallery/interview-sae207.png",
-      "highlights": [
-        "Réalisation : Recherche d'une professionnelle, Organisation de l'entretien, conduite de la visio et synthèse des pratiques d'une équipe data.",
-        "Méthodologie : J'ai contacté et interviewé une Product Owner du CISIRH pour comprendre comment une équipe gère ses projets data au quotidien. J'ai préparé mes questions à l'avance, mené l'entretien de 32 minutes en visio, puis synthétisé l'impact de l'évolution de l'IA sur leurs méthodes de travail.",
-        "Amélioration : Pour une prochaine fois, je préparerais des questions encore plus techniques sur les choix d'outils d'IA utilisés par son équipe pour anticiper les nouveaux métiers."
-      ]
+      "years": "2025 – 2026",
+      "title": "BUT Science des Données (1re année validée)",
+      "school": "Université Sorbonne Paris Nord, IUT de Villetaneuse"
     },
     {
-      "company": "Université Sorbonne Paris Nord",
-      "role": "Étudiant - SAÉ 105 Anglais",
-      "period": "Semestre 1",
-      "location": "Epinay-Villetaneuse",
-      "summary": "Analyse et présentation internationale de la Métropole de Lyon.",
-      "image": "/gallery/poster-sae105.jpg",
-      "highlights": [
-        "Réalisation : Conception d'un poster créatif et présentation orale de 4 minutes devant un public anglophone.",
-        "Méthodologie : Synthèse d'informations géographiques et économiques complexes simplifiées pour un support visuel efficace.",
-        "Amélioration : Au début, j'ai eu du mal avec l'organisation de groupe ; je travaillerais davantage sur la répartition des tâches dès le lancement pour mieux gérer le temps de parole et aussi je dois me détacher des notes pendant l'oral."
-      ]
+      "years": "2023 – 2025",
+      "title": "Baccalauréat STI2D, spécialité SIN (Systèmes d'Information)",
+      "note": "Parmi les premiers de la promotion"
     }
   ],
+  "skills": {
+    "dev_ia": [
+      { "domain": "Langages", "items": ["Python", "JavaScript (front-end et back-end)", "SQL", "HTML5", "CSS3", "R"] },
+      { "domain": "IA & LLM", "items": ["Claude API (Anthropic)", "OpenAI API", "Claude Code", "intégration d'API LLM", "agents IA", "prompt engineering", "automatisation par LLM"] },
+      { "domain": "Bases de données", "items": ["PostgreSQL", "modélisation relationnelle (MCD/MLD)", "requêtes SQL complexes", "nettoyage de données", "RGPD"] },
+      { "domain": "Outils & DevOps", "items": ["Git", "GitHub", "Linux", "ligne de commande (CLI)", "API REST", "requêtes HTTP", "protocole TCP/IP", "déploiement Netlify"] },
+      { "domain": "Analyse & Dataviz", "items": ["Python (pandas)", "R / RStudio", "Metabase", "Tableau Software", "tableaux de bord interactifs"] },
+      { "domain": "Langues", "items": ["Français (langue maternelle)", "Anglais (B2 technique — lecture de documentation et d'API)"] }
+    ],
+    "data": [
+      { "domain": "Langages", "items": ["SQL", "Python (pandas)", "R / RStudio", "JavaScript", "HTML5", "CSS3"] },
+      { "domain": "Bases de données", "items": ["PostgreSQL", "modélisation relationnelle (MCD/MLD)", "requêtes SQL complexes", "qualité de données", "RGPD"] },
+      { "domain": "Analyse & Dataviz", "items": ["Metabase", "Tableau Software", "tableaux de bord interactifs", "KPI", "statistiques descriptives", "analyse exploratoire (EDA)"] },
+      { "domain": "IA & LLM", "items": ["Claude API", "OpenAI API", "automatisation de traitements par LLM", "scripts Python d'automatisation"] },
+      { "domain": "Outils & DevOps", "items": ["Git", "GitHub", "Linux", "ligne de commande (CLI)", "API REST", "requêtes HTTP", "protocole TCP/IP"] },
+      { "domain": "Langues", "items": ["Français (langue maternelle)", "Anglais (B2 technique)"] }
+    ]
+  },
   "projects": [
     {
-      "id": "cli-multi-llm",
-      "title": "Assistant CLI Multi-LLM",
-      "subtitle": "IA, Python & CLI Automation",
-      "description": "Configuration d'un environnement en ligne de commande alternatif. Routage dynamique des requêtes vers des API IA tierces gratuites et automatisation de tâches.",
-      "stack": [
-        "Python",
-        "API REST",
-        "CLI",
-        "Git"
+      "id": "hopital",
+      "domain": "data",
+      "file": "ch_delafontaine.sql",
+      "title": "Base de données & Analyse de données médicales",
+      "context": "Projet académique, BUT Science des Données — Centre Hospitalier Delafontaine",
+      "metric": { "value": "≈ 10", "label": "tables liées" },
+      "points": [
+        "Modélisé et implémenté une base de données relationnelle PostgreSQL (environ 10 tables liées) à partir de données hospitalières brutes, en conformité RGPD (anonymisation des données patients).",
+        "Nettoyé et fiabilisé plusieurs milliers d'enregistrements médicaux (doublons, valeurs manquantes, formats incohérents) avec SQL et Python.",
+        "Rédigé des requêtes SQL complexes (jointures multiples, agrégations, sous-requêtes) pour calculer des indicateurs d'activité hospitalière."
       ],
-      "year": "2026",
-      "highlight": true
+      "stack": ["PostgreSQL", "SQL", "Python"]
     },
     {
-      "id": "portfolio-web",
-      "title": "Site Portfolio Web Responsive",
-      "subtitle": "Développement Full Stack & Intégration IA",
-      "description": "Conception, développement et mise en production de mon site vitrine. Architecture prototypée via assistant IA CLI, refactorisation manuelle et déploiement continu.",
-      "stack": [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Netlify"
+      "id": "insee",
+      "domain": "data",
+      "file": "demographie_insee.py",
+      "title": "Analyse démographique territoriale",
+      "context": "Projet académique, BUT Science des Données — Données publiques INSEE",
+      "points": [
+        "Traité et croisé des jeux de données publics INSEE (plusieurs dizaines de milliers de lignes) avec Python (pandas) et R.",
+        "Conçu des tableaux de bord interactifs sous Metabase et Tableau Software pour comparer les indicateurs démographiques par territoire.",
+        "Produit des statistiques descriptives et automatisé l'import et le nettoyage par scripts pour une analyse reproductible."
       ],
-      "year": "2026",
-      "highlight": true,
-      "link": "https://portfolio-mael-bnj.netlify.app/"
+      "stack": ["Python", "R", "Metabase", "Tableau Software"]
     },
     {
-      "id": "stick-clash",
-      "title": "Stick Clash (Jeu Web)",
-      "subtitle": "Projet Personnel · Algorithmique",
-      "description": "Jeu 2D interactif dans le navigateur. Prototypage de la boucle d'animation assisté par IA, suivi d'un débogage manuel approfondi de la logique et des collisions.",
-      "stack": [
-        "JavaScript",
-        "CSS3",
-        "HTML5"
+      "id": "agents",
+      "domain": "dev_ia",
+      "file": "agents_ia.py",
+      "title": "Configuration d'agents IA & Intégration d'API",
+      "context": "Projet personnel — github.com/mael24bnj",
+      "points": [
+        "Configuré des environnements multi-LLM (Claude Code, API Anthropic et OpenAI) et connecté des agents IA à des services externes.",
+        "Transformé des sites web en interfaces et API exploitables par des agents IA pour automatiser des tâches.",
+        "Géré les clés API, les appels HTTP/REST et les variables d'environnement."
       ],
-      "year": "2026",
-      "highlight": true,
-      "link": "https://stickclash.netlify.app/"
+      "stack": ["Claude Code", "API Anthropic", "API OpenAI"],
+      "links": [{ "label": "github.com/mael24bnj", "url": "https://github.com/mael24bnj" }]
     },
     {
-      "id": "sae-201",
-      "title": "Modélisation et Pipeline PostgreSQL",
-      "subtitle": "Data Engineering & SQL",
-      "description": "Conception d'un schéma relationnel (3FN) et injection de 150 000 lignes. Requêtage avancé, gestion des erreurs de saisie et nettoyage de la base.",
-      "stack": [
-        "PostgreSQL",
-        "SQL",
-        "Metabase"
+      "id": "web",
+      "domain": "dev_ia",
+      "file": "portfolio_stick_clash.js",
+      "title": "Portfolio web & Stick Clash",
+      "context": "Projets personnels — portfolio-mael-bnj.netlify.app — stickclash.netlify.app",
+      "points": [
+        "Conçu et déployé sur Netlify un portfolio full stack (HTML, CSS, JavaScript) et Stick Clash, un jeu web de combat en JavaScript (boucle de jeu, collisions, contrôles clavier)."
       ],
-      "year": "2026",
-      "highlight": false
+      "stack": ["HTML", "CSS", "JavaScript", "Netlify", "IA"],
+      "links": [
+        { "label": "portfolio-mael-bnj.netlify.app", "url": "https://portfolio-mael-bnj.netlify.app/" },
+        { "label": "stickclash.netlify.app", "url": "https://stickclash.netlify.app/" }
+      ]
     },
     {
-      "id": "sae-206",
-      "title": "Dataviz : Village des Trois Âges",
-      "subtitle": "Traiter, Analyser, Valoriser",
-      "description": "Reporting complet et Datavisualisation. Utilisation de Tableau pour valider l'impact du projet sur des données d'infrastructures locales.",
-      "stack": [
-        "Tableau",
-        "R",
-        "Excel"
+      "id": "jeu",
+      "domain": "dev_ia",
+      "file": "jeu_multijoueur.luau",
+      "title": "Jeu multijoueur : architecture client-serveur",
+      "context": "Projet personnel (en cours)",
+      "metric": { "value": "145+", "label": "modules typés" },
+      "points": [
+        "Développé un jeu multijoueur (en cours) : modélisation 3D assistée par IA, design d'interface (UI) et création/implantation d'IA comportementale dans les PNJ.",
+        "Architecture client-serveur de plus de 145 modules typés, avec un serveur autoritaire : butin, monnaie et combats sont validés côté serveur, jamais par le client.",
+        "Sauvegarde des joueurs par DataStore, versionnée, avec migration quand le format change.",
+        "Interface conçue sous Figma et documentation technique structurée sous Obsidian."
       ],
-      "year": "2026",
-      "highlight": false
-    },
-    {
-      "id": "sae-101",
-      "title": "Analyse et Requêtage SQL",
-      "subtitle": "Traiter",
-      "description": "Extraction d'informations dans de grandes bases de données. Gestion des requêtes complexes multi-tables.",
-      "stack": [
-        "SQL",
-        "PostgreSQL"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-102",
-      "title": "Programmation Python",
-      "subtitle": "Traiter",
-      "description": "Traduction de besoins métiers en lignes de code et développement d'une logique algorithmique robuste.",
-      "stack": [
-        "Python"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-202",
-      "title": "Statistiques Inférentielles et Simulation R",
-      "subtitle": "Traiter, Analyser",
-      "description": "Calcul d'intervalles de confiance et échantillonnage sur données INSEE. Automatisation de simulations par boucles.",
-      "stack": [
-        "R",
-        "Statistiques"
-      ],
-      "year": "2026",
-      "highlight": false
-    },
-    {
-      "id": "sae-106",
-      "title": "Analyse Statistique",
-      "subtitle": "Analyser",
-      "description": "Analyse de corrélation entre variables (Quanti/Quali) et interprétation statistique des phénomènes.",
-      "stack": [
-        "Statistiques",
-        "Excel"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-104",
-      "title": "Écosystème Data (Axone Data)",
-      "subtitle": "Analyser, Valoriser",
-      "description": "Analyse stratégique du marché, étude des points faibles concurrentiels et présentation synthétique.",
-      "stack": [
-        "Analyse Stratégique"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-205",
-      "title": "Analyse de Rentabilité",
-      "subtitle": "Analyser, Valoriser",
-      "description": "Manipulation de comptes de résultat, calculs de coûts de production et détermination des seuils de rentabilité.",
-      "stack": [
-        "Excel",
-        "Finance"
-      ],
-      "year": "2026",
-      "highlight": false
-    },
-    {
-      "id": "sae-204",
-      "title": "Cartographie et Analyse Démographique",
-      "subtitle": "Analyser, Valoriser",
-      "description": "Analyse de la population jeune, calcul de TVAM et cartographie pour prouver des théories socio-économiques.",
-      "stack": [
-        "Tableau",
-        "Excel",
-        "DataViz"
-      ],
-      "year": "2026",
-      "highlight": false
-    },
-    {
-      "id": "sae-103",
-      "title": "Dashboarding Excel",
-      "subtitle": "Traiter, Valoriser",
-      "description": "Maîtrise des fonctions Excel avancées et présentation esthétique des données pour une visualisation professionnelle.",
-      "stack": [
-        "Excel",
-        "DataViz"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-105",
-      "title": "Analyse Territoriale (Projet Anglais)",
-      "subtitle": "Analyser, Valoriser",
-      "description": "Synthèse de données territoriales sur Lyon. Création d'un support visuel adapté à un public anglophone.",
-      "stack": [
-        "Design",
-        "Anglais"
-      ],
-      "year": "2025",
-      "highlight": false
-    },
-    {
-      "id": "sae-207",
-      "title": "Immersion Professionnelle",
-      "subtitle": "Valoriser",
-      "description": "Interview d'un professionnel Data pour développer sa vision métier et son vocabulaire professionnel.",
-      "stack": [
-        "Communication",
-        "Networking"
-      ],
-      "year": "2026",
-      "highlight": false
+      "stack": ["Luau", "DataStore", "Figma", "Obsidian"]
     }
-  ],
-  "testimonials": [],
-  "gallery": [],
-  "pourquoiSD": {
-    "title": "Pourquoi la Data, le Web et l'IA ?",
-    "content": "Mon passage en Bac STI2D (spécialité SIN) puis ma première année en BUT Science des Données m'ont appris une chose essentielle : la valeur de la donnée ne s'exprime pleinement que si elle est connectée à une application utile.\n\nAujourd'hui, l'essor de l'IA générative transforme l'analyse de données classique : l'enjeu n'est plus seulement d'extraire des chiffres, mais d'interfacer des modèles d'IA directement au cœur du code applicatif. En rejoignant le cursus Graduate Développeur IA de Studi, je fais converger mes compétences analytiques (SQL, Python, statistiques) vers le génie logiciel full stack et le pilotage d'API.\n\nCe profil hybride me permet de concevoir des solutions automatisées de bout en bout, de la base de données relationnelle jusqu'à l'interface utilisateur, tout en développant des compétences transversales (gestion de projet, coordination d'outils ou d'équipes mixtes humaines/IA)."
-  },
-  "objectives": [
-    "Court terme : Valider mon titre Graduate Développeur IA chez Studi et réussir mon alternance de 24 mois en Île-de-France en intégrant une équipe tech agile.",
-    "Moyen terme : Déployer en production des pipelines connectant des bases relationnelles à des modèles d'IA et concevoir des applications web scalables.",
-    "Long terme : Devenir Tech Lead ou Architecte IA et Logiciel, capable de piloter l'intégration de systèmes intelligents au sein de produits digitaux innovants."
   ]
 }

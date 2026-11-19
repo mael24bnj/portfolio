@@ -1,4 +1,3 @@
-export { SectionHeading } from './SectionHeading'
-export { GradientButton } from './GradientButton'
-export { SocialPills } from './SocialPills'
-export { Marquee } from './Marquee'
+export { BrandIcon } from './BrandIcon'
+export { ModeSwitch } from './ModeSwitch'
+export { Tag } from './Tag'

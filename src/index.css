@@ -1,78 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 @import 'tailwindcss';
 
-@theme {
-  --font-sans: 'Kanit', ui-sans-serif, system-ui, sans-serif;
+/* Charte « Notebook vivant » : la page se lit comme un notebook Python.
+   L'accent dépend du profil affiché (Dev IA = vert, Data = ambre). */
+:root {
+  --ink: #0c110e;
+  --cell: #121a15;
+  --cell-raised: #16201a;
+  --rule: #24312a;
+  --paper: #d7e4da;
+  --muted: #93a79a;
+  --prompt: #7a8f81;
+  --green: #3ddc97;
+  --amber: #ffb547;
+  --accent: var(--green);
+  --accent-2: var(--amber);
+  color-scheme: dark;
+}
 
-  --color-bg-dark: #0c0c0c;
-  --color-bg-card: #141414;
-  --color-border-subtle: #2a2a2a;
-  --color-text-primary: #f5f5f5;
-  --color-text-muted: #888888;
-  --color-chrome-start: #e8e8e8;
-  --color-chrome-mid: #b0b0b0;
-  --color-chrome-end: #707070;
-  --color-accent-purple: #8b5cf6;
-  --color-accent-magenta: #ec4899;
-  --color-accent-orange: #f97316;
+:root[data-mode='data'] {
+  --accent: var(--amber);
+  --accent-2: var(--green);
+}
+
+@theme inline {
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', monospace;
+
+  --color-ink: var(--ink);
+  --color-cell: var(--cell);
+  --color-cell-raised: var(--cell-raised);
+  --color-rule: var(--rule);
+  --color-paper: var(--paper);
+  --color-muted: var(--muted);
+  --color-prompt: var(--prompt);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-green: var(--green);
+  --color-amber: var(--amber);
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 
   body {
-    @apply bg-bg-dark text-text-primary font-sans antialiased;
+    @apply bg-ink font-sans text-paper antialiased;
     margin: 0;
     min-height: 100vh;
   }
 
   ::selection {
-    background-color: color-mix(in srgb, var(--color-accent-purple) 40%, transparent);
+    background-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-@layer utilities {
-  .text-chrome-gradient {
-    background: linear-gradient(
-      135deg,
-      var(--color-chrome-start) 0%,
-      var(--color-chrome-mid) 45%,
-      var(--color-chrome-end) 100%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+@layer components {
+  /* Coloration syntaxique minimale du code des cellules */
+  .tok-kw {
+    color: #c792ea;
   }
-
-  .bg-accent-gradient {
-    background: linear-gradient(
-      135deg,
-      var(--color-accent-purple) 0%,
-      var(--color-accent-magenta) 50%,
-      var(--color-accent-orange) 100%
-    );
+  .tok-fn {
+    color: var(--accent);
   }
-
-  .card-dark {
-    @apply rounded-2xl border border-border-subtle bg-bg-card;
+  .tok-str {
+    color: var(--amber);
   }
-
-  .section-container {
-    @apply mx-auto w-full max-w-6xl px-6 md:px-10;
+  :root[data-mode='data'] .tok-str {
+    color: var(--green);
   }
-
-  @keyframes marquee-left {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
+  .tok-num {
+    color: #f78c6c;
   }
-
-  .animate-marquee-left {
-    animation: marquee-left var(--marquee-duration, 40s) linear infinite;
+  .tok-com {
+    color: var(--prompt);
+    font-style: italic;
   }
 }

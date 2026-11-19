@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Outils locaux (skills, réglages Claude) et sources du CV
+skills-lock.json
+.claude/
+assets-update/
+CV_Mael_Benjamin*.pdf
