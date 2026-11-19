@@ -2,7 +2,7 @@
   "profile": {
     "name": "Maël Benjamin",
     "handle": "mael_benjamin",
-    "photo": "/avatar.png",
+    "photo": "/mael-benjamin.webp",
     "search": "Alternance 2 ans",
     "availability": "immédiate — rythme d'alternance flexible",
     "location": "Champagne-sur-Oise (95)",
@@ -16,13 +16,36 @@
       "data": "Étudiant en Graduate Développeur IA (STUDI CFA, 2026-2028) après une première année de BUT Science des Données, je recherche une alternance de 2 ans en analyse de données. Je maîtrise la chaîne complète de la donnée : collecte, nettoyage et modélisation en SQL/PostgreSQL, analyse statistique en Python et R, puis restitution dans des tableaux de bord Metabase et Tableau. J'ai travaillé sur des données médicales réelles (CH Delafontaine) dans le respect du RGPD et sur des données publiques INSEE. Rigoureux, autonome et orienté résultats, je transforme des données brutes en indicateurs exploitables."
     },
     "qualities": {
-      "dev_ia": ["Autonome", "Persévérant", "Attaché au concret"],
-      "data": ["Rigoureux", "Autonome", "Orienté résultats"]
+      "dev_ia": [
+        "Autonome",
+        "Persévérant",
+        "Attaché au concret"
+      ],
+      "data": [
+        "Rigoureux",
+        "Autonome",
+        "Orienté résultats"
+      ]
     },
     "links": [
-      { "kind": "github", "label": "GitHub", "url": "https://github.com/mael24bnj", "display": "github.com/mael24bnj" },
-      { "kind": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/mael-benjamin", "display": "linkedin.com/in/mael-benjamin" },
-      { "kind": "email", "label": "E-mail", "url": "mailto:maelbenjamin10@gmail.com", "display": "maelbenjamin10@gmail.com" }
+      {
+        "kind": "github",
+        "label": "GitHub",
+        "url": "https://github.com/mael24bnj",
+        "display": "github.com/mael24bnj"
+      },
+      {
+        "kind": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mael-benjamin",
+        "display": "linkedin.com/in/mael-benjamin"
+      },
+      {
+        "kind": "email",
+        "label": "E-mail",
+        "url": "mailto:maelbenjamin10@gmail.com",
+        "display": "maelbenjamin10@gmail.com"
+      }
     ]
   },
   "education": [
@@ -46,93 +69,547 @@
   ],
   "skills": {
     "dev_ia": [
-      { "domain": "Langages", "items": ["Python", "JavaScript (front-end et back-end)", "SQL", "HTML5", "CSS3", "R"] },
-      { "domain": "IA & LLM", "items": ["Claude API (Anthropic)", "OpenAI API", "Claude Code", "intégration d'API LLM", "agents IA", "prompt engineering", "automatisation par LLM"] },
-      { "domain": "Bases de données", "items": ["PostgreSQL", "modélisation relationnelle (MCD/MLD)", "requêtes SQL complexes", "nettoyage de données", "RGPD"] },
-      { "domain": "Outils & DevOps", "items": ["Git", "GitHub", "Linux", "ligne de commande (CLI)", "API REST", "requêtes HTTP", "protocole TCP/IP", "déploiement Netlify"] },
-      { "domain": "Analyse & Dataviz", "items": ["Python (pandas)", "R / RStudio", "Metabase", "Tableau Software", "tableaux de bord interactifs"] },
-      { "domain": "Langues", "items": ["Français (langue maternelle)", "Anglais (B2 technique — lecture de documentation et d'API)"] }
+      {
+        "domain": "Langages",
+        "items": [
+          "Python",
+          "JavaScript (front-end et back-end)",
+          "SQL",
+          "HTML5",
+          "CSS3",
+          "R"
+        ]
+      },
+      {
+        "domain": "IA & LLM",
+        "items": [
+          "Claude API (Anthropic)",
+          "OpenAI API",
+          "Claude Code",
+          "intégration d'API LLM",
+          "agents IA",
+          "prompt engineering",
+          "automatisation par LLM"
+        ]
+      },
+      {
+        "domain": "Bases de données",
+        "items": [
+          "PostgreSQL",
+          "modélisation relationnelle (MCD/MLD)",
+          "requêtes SQL complexes",
+          "nettoyage de données",
+          "RGPD"
+        ]
+      },
+      {
+        "domain": "Outils & DevOps",
+        "items": [
+          "Git",
+          "GitHub",
+          "Linux",
+          "ligne de commande (CLI)",
+          "API REST",
+          "requêtes HTTP",
+          "protocole TCP/IP",
+          "déploiement Netlify"
+        ]
+      },
+      {
+        "domain": "Analyse & Dataviz",
+        "items": [
+          "Python (pandas)",
+          "R / RStudio",
+          "Metabase",
+          "Tableau Software",
+          "tableaux de bord interactifs"
+        ]
+      },
+      {
+        "domain": "Langues",
+        "items": [
+          "Français (langue maternelle)",
+          "Anglais (B2 technique — lecture de documentation et d'API)"
+        ]
+      }
     ],
     "data": [
-      { "domain": "Langages", "items": ["SQL", "Python (pandas)", "R / RStudio", "JavaScript", "HTML5", "CSS3"] },
-      { "domain": "Bases de données", "items": ["PostgreSQL", "modélisation relationnelle (MCD/MLD)", "requêtes SQL complexes", "qualité de données", "RGPD"] },
-      { "domain": "Analyse & Dataviz", "items": ["Metabase", "Tableau Software", "tableaux de bord interactifs", "KPI", "statistiques descriptives", "analyse exploratoire (EDA)"] },
-      { "domain": "IA & LLM", "items": ["Claude API", "OpenAI API", "automatisation de traitements par LLM", "scripts Python d'automatisation"] },
-      { "domain": "Outils & DevOps", "items": ["Git", "GitHub", "Linux", "ligne de commande (CLI)", "API REST", "requêtes HTTP", "protocole TCP/IP"] },
-      { "domain": "Langues", "items": ["Français (langue maternelle)", "Anglais (B2 technique)"] }
+      {
+        "domain": "Langages",
+        "items": [
+          "SQL",
+          "Python (pandas)",
+          "R / RStudio",
+          "JavaScript",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      {
+        "domain": "Bases de données",
+        "items": [
+          "PostgreSQL",
+          "modélisation relationnelle (MCD/MLD)",
+          "requêtes SQL complexes",
+          "qualité de données",
+          "RGPD"
+        ]
+      },
+      {
+        "domain": "Analyse & Dataviz",
+        "items": [
+          "Metabase",
+          "Tableau Software",
+          "tableaux de bord interactifs",
+          "KPI",
+          "statistiques descriptives",
+          "analyse exploratoire (EDA)"
+        ]
+      },
+      {
+        "domain": "IA & LLM",
+        "items": [
+          "Claude API",
+          "OpenAI API",
+          "automatisation de traitements par LLM",
+          "scripts Python d'automatisation"
+        ]
+      },
+      {
+        "domain": "Outils & DevOps",
+        "items": [
+          "Git",
+          "GitHub",
+          "Linux",
+          "ligne de commande (CLI)",
+          "API REST",
+          "requêtes HTTP",
+          "protocole TCP/IP"
+        ]
+      },
+      {
+        "domain": "Langues",
+        "items": [
+          "Français (langue maternelle)",
+          "Anglais (B2 technique)"
+        ]
+      }
     ]
   },
   "projects": [
     {
-      "id": "hopital",
-      "domain": "data",
-      "file": "ch_delafontaine.sql",
-      "title": "Base de données & Analyse de données médicales",
-      "context": "Projet académique, BUT Science des Données — Centre Hospitalier Delafontaine",
-      "metric": { "value": "≈ 10", "label": "tables liées" },
+      "id": "orchestration",
+      "tag": "hybride",
+      "year": "2026",
+      "featured": true,
+      "file": "orchestration_ia.luau",
+      "title": "Orchestration IA & architecture client-serveur",
+      "context": "Projet personnel (en cours) — jeu multijoueur, documentation sous Obsidian",
+      "metric": {
+        "value": "145+",
+        "label": "modules typés"
+      },
       "points": [
-        "Modélisé et implémenté une base de données relationnelle PostgreSQL (environ 10 tables liées) à partir de données hospitalières brutes, en conformité RGPD (anonymisation des données patients).",
-        "Nettoyé et fiabilisé plusieurs milliers d'enregistrements médicaux (doublons, valeurs manquantes, formats incohérents) avec SQL et Python.",
-        "Rédigé des requêtes SQL complexes (jointures multiples, agrégations, sous-requêtes) pour calculer des indicateurs d'activité hospitalière."
+        "Développé un jeu multijoueur (en cours) : modélisation 3D assistée par IA, design d'interface (UI) et création/implantation d'IA comportementale dans les PNJ.",
+        "Workflow de développement assisté par IA : Claude Code guidé par des skills personnalisés (normes de code, sauvegarde et échanges, relecture de sécurité), serveurs MCP reliés à l'éditeur du jeu et à Blender, scripts CLI d'automatisation.",
+        "Architecture client-serveur modulaire de plus de 145 modules typés (Luau --!strict) : serveur autoritaire, butin, monnaie et combats validés côté serveur, un seul service autorisé à écrire chaque donnée sauvegardée.",
+        "Deux environnements (hub et expédition) qui partagent le même code commun, recopié par script puis contrôlé par empreinte (hash) de chaque module.",
+        "Sauvegarde des joueurs par DataStore, versionnée, avec migrations quand le format change.",
+        "Documentation technique structurée sous Obsidian : une note par système (sauvegarde, butin, interface, ennemis…), reliées entre elles comme le montre le graphe."
       ],
-      "stack": ["PostgreSQL", "SQL", "Python"]
+      "stack": [
+        "Claude Code",
+        "MCP",
+        "Luau --!strict",
+        "DataStore",
+        "Obsidian",
+        "Figma"
+      ],
+      "images": [
+        {
+          "src": "/projects/obsidian-graphe-notes.webp",
+          "thumb": "/projects/obsidian-graphe-notes-thumb.webp",
+          "alt": "Graphe Obsidian des notes techniques du projet, reliées autour de la note d'accueil"
+        },
+        {
+          "src": "/projects/obsidian-graphe-global.webp",
+          "thumb": "/projects/obsidian-graphe-global-thumb.webp",
+          "alt": "Vue globale du graphe Obsidian du projet"
+        }
+      ]
     },
     {
-      "id": "insee",
-      "domain": "data",
-      "file": "demographie_insee.py",
-      "title": "Analyse démographique territoriale",
-      "context": "Projet académique, BUT Science des Données — Données publiques INSEE",
+      "id": "blender",
+      "tag": "dev_ia",
+      "year": "2026",
+      "featured": true,
+      "file": "environnements.blend",
+      "title": "Modélisation 3D & conception d'environnements sous Blender",
+      "context": "Projet personnel (en cours) — maps modulaires, arènes et modèles optimisés",
+      "metric": {
+        "value": "55–75 k",
+        "label": "triangles par secteur"
+      },
       "points": [
-        "Traité et croisé des jeux de données publics INSEE (plusieurs dizaines de milliers de lignes) avec Python (pandas) et R.",
-        "Conçu des tableaux de bord interactifs sous Metabase et Tableau Software pour comparer les indicateurs démographiques par territoire.",
-        "Produit des statistiques descriptives et automatisé l'import et le nettoyage par scripts pour une analyse reproductible."
+        "Maps modulaires de 260 × 220 à 500 × 400 studs (arène du boss comprise), reliées par des connecteurs sur une grille de 100 studs pour être assemblées aléatoirement à chaque partie.",
+        "Relief sculpté (falaises, ravins, plateaux) et sol découpé en 16 à 24 morceaux, chacun avec sa texture peinte de 1024 px ; collisions simplifiées en tuiles invisibles.",
+        "Budget tenu par secteur : 55 000 à 75 000 triangles, aucun maillage au-dessus de 20 000, arbres très allégés (180 à 260 triangles) pour la forêt lointaine.",
+        "Optimisation de modèles : boss réduit de 500 000 à 19 500 triangles, textures cuites (couleur, rugosité, normales), squelette et animations ajoutés.",
+        "Contrôles avant export (normales, lissage, UV, échelle) et rendus de vérification ; export FBX et envoi automatisés par scripts Python (bpy)."
       ],
-      "stack": ["Python", "R", "Metabase", "Tableau Software"]
+      "stack": [
+        "Blender",
+        "Python (bpy)",
+        "Topologie",
+        "Baking",
+        "Export FBX"
+      ],
+      "images": [
+        {
+          "src": "/projects/blender-secteur-depart.webp",
+          "thumb": "/projects/blender-secteur-depart-thumb.webp",
+          "alt": "Rendu Blender du secteur de départ : falaises, sentiers et ravin"
+        },
+        {
+          "src": "/projects/blender-secteur-ruines.webp",
+          "thumb": "/projects/blender-secteur-ruines-thumb.webp",
+          "alt": "Rendu Blender du secteur des ruines"
+        },
+        {
+          "src": "/projects/blender-secteur-cristaux.webp",
+          "thumb": "/projects/blender-secteur-cristaux-thumb.webp",
+          "alt": "Rendu Blender du secteur des cristaux"
+        },
+        {
+          "src": "/projects/blender-arene-boss.webp",
+          "thumb": "/projects/blender-arene-boss-thumb.webp",
+          "alt": "Rendu Blender de l'arène du boss"
+        },
+        {
+          "src": "/projects/blender-plan-annote.webp",
+          "thumb": "/projects/blender-plan-annote-thumb.webp",
+          "alt": "Plan annoté du secteur de départ : dimensions, connecteurs, mécaniques et budget de triangles"
+        }
+      ],
+      "credit": "Décor : pièces de deux packs Fab, découpées, allégées et assemblées. Boss : « Forest monster » de Catarinaz (Sketchfab, CC BY 4.0), optimisé."
     },
     {
       "id": "agents",
-      "domain": "dev_ia",
       "file": "agents_ia.py",
       "title": "Configuration d'agents IA & Intégration d'API",
       "context": "Projet personnel — github.com/mael24bnj",
       "points": [
         "Configuré des environnements multi-LLM (Claude Code, API Anthropic et OpenAI) et connecté des agents IA à des services externes.",
         "Transformé des sites web en interfaces et API exploitables par des agents IA pour automatiser des tâches.",
-        "Géré les clés API, les appels HTTP/REST et les variables d'environnement."
+        "Géré les clés API, les appels HTTP/REST et les variables d'environnement.",
+        "Routage des requêtes vers plusieurs API d'IA et automatisation de tâches en ligne de commande."
       ],
-      "stack": ["Claude Code", "API Anthropic", "API OpenAI"],
-      "links": [{ "label": "github.com/mael24bnj", "url": "https://github.com/mael24bnj" }]
+      "stack": [
+        "Claude Code",
+        "API Anthropic",
+        "API OpenAI",
+        "Python",
+        "CLI"
+      ],
+      "links": [
+        {
+          "label": "github.com/mael24bnj",
+          "url": "https://github.com/mael24bnj"
+        }
+      ],
+      "tag": "dev_ia",
+      "year": "2026",
+      "featured": true
+    },
+    {
+      "id": "hopital",
+      "file": "ch_delafontaine.sql",
+      "title": "Base de données & Analyse de données médicales",
+      "context": "Projet académique, BUT Science des Données — Centre Hospitalier Delafontaine",
+      "metric": {
+        "value": "≈ 10",
+        "label": "tables liées"
+      },
+      "points": [
+        "Modélisé et implémenté une base de données relationnelle PostgreSQL (environ 10 tables liées) à partir de données hospitalières brutes, en conformité RGPD (anonymisation des données patients).",
+        "Nettoyé et fiabilisé plusieurs milliers d'enregistrements médicaux (doublons, valeurs manquantes, formats incohérents) avec SQL et Python.",
+        "Rédigé des requêtes SQL complexes (jointures multiples, agrégations, sous-requêtes) pour calculer des indicateurs d'activité hospitalière."
+      ],
+      "stack": [
+        "PostgreSQL",
+        "SQL",
+        "Python"
+      ],
+      "tag": "data",
+      "year": "2026",
+      "featured": true
+    },
+    {
+      "id": "irve",
+      "tag": "data",
+      "year": "2026",
+      "featured": true,
+      "file": "irve_pipeline.sql",
+      "title": "Modélisation et pipeline PostgreSQL (bornes IRVE)",
+      "context": "SAÉ 2.01, BUT Science des Données — jeu de données public des bornes de recharge",
+      "metric": {
+        "value": "150 000+",
+        "label": "enregistrements"
+      },
+      "points": [
+        "Conception de l'architecture (modèle entité-association et schéma relationnel en 3FN) et peuplement de la base avec 150 000 lignes.",
+        "Filtres SQL stricts pour isoler les données corrompues, gestion des erreurs de saisie et nettoyage de la base.",
+        "Graphiques Metabase pour analyser et commenter les données."
+      ],
+      "stack": [
+        "PostgreSQL",
+        "SQL",
+        "Metabase"
+      ],
+      "images": [
+        {
+          "src": "/projects/irve-schema.webp",
+          "thumb": "/projects/irve-schema.webp",
+          "alt": "Schéma relationnel de la base IRVE"
+        }
+      ]
+    },
+    {
+      "id": "insee",
+      "file": "demographie_insee.py",
+      "title": "Analyse démographique territoriale",
+      "context": "Projet académique, BUT Science des Données — Données publiques INSEE (SAÉ 2.04)",
+      "points": [
+        "Traité et croisé des jeux de données publics INSEE (plusieurs dizaines de milliers de lignes) avec Python (pandas) et R.",
+        "Conçu des tableaux de bord interactifs sous Metabase et Tableau Software pour comparer les indicateurs démographiques par territoire.",
+        "Produit des statistiques descriptives et automatisé l'import et le nettoyage par scripts pour une analyse reproductible.",
+        "Analyse de la population jeune : calcul du TVAM et cartographie pour vérifier des hypothèses socio-économiques."
+      ],
+      "stack": [
+        "Python",
+        "R",
+        "Metabase",
+        "Tableau Software",
+        "Cartographie"
+      ],
+      "tag": "data",
+      "year": "2026",
+      "featured": true
     },
     {
       "id": "web",
-      "domain": "dev_ia",
       "file": "portfolio_stick_clash.js",
       "title": "Portfolio web & Stick Clash",
       "context": "Projets personnels — portfolio-mael-bnj.netlify.app — stickclash.netlify.app",
       "points": [
-        "Conçu et déployé sur Netlify un portfolio full stack (HTML, CSS, JavaScript) et Stick Clash, un jeu web de combat en JavaScript (boucle de jeu, collisions, contrôles clavier)."
+        "Conçu et déployé sur Netlify un portfolio full stack (HTML, CSS, JavaScript) et Stick Clash, un jeu web de combat en JavaScript (boucle de jeu, collisions, contrôles clavier).",
+        "Ce site : refonte en React, TypeScript, Tailwind CSS et Framer Motion (notebook interactif, bascule de profil, section animée au défilement).",
+        "Stick Clash : boucle d'animation prototypée avec l'aide de l'IA, puis débogage manuel approfondi de la logique et des collisions."
       ],
-      "stack": ["HTML", "CSS", "JavaScript", "Netlify", "IA"],
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Netlify"
+      ],
       "links": [
-        { "label": "portfolio-mael-bnj.netlify.app", "url": "https://portfolio-mael-bnj.netlify.app/" },
-        { "label": "stickclash.netlify.app", "url": "https://stickclash.netlify.app/" }
-      ]
+        {
+          "label": "portfolio-mael-bnj.netlify.app",
+          "url": "https://portfolio-mael-bnj.netlify.app/"
+        },
+        {
+          "label": "stickclash.netlify.app",
+          "url": "https://stickclash.netlify.app/"
+        }
+      ],
+      "tag": "dev_ia",
+      "year": "2026",
+      "featured": false
     },
     {
-      "id": "jeu",
-      "domain": "dev_ia",
-      "file": "jeu_multijoueur.luau",
-      "title": "Jeu multijoueur : architecture client-serveur",
-      "context": "Projet personnel (en cours)",
-      "metric": { "value": "145+", "label": "modules typés" },
+      "id": "sae-206",
+      "tag": "data",
+      "year": "2026",
+      "file": "village_trois_ages.twb",
+      "title": "Dataviz : Village des Trois Âges",
+      "context": "SAÉ 2.06 — traiter, analyser, valoriser",
       "points": [
-        "Développé un jeu multijoueur (en cours) : modélisation 3D assistée par IA, design d'interface (UI) et création/implantation d'IA comportementale dans les PNJ.",
-        "Architecture client-serveur de plus de 145 modules typés, avec un serveur autoritaire : butin, monnaie et combats sont validés côté serveur, jamais par le client.",
-        "Sauvegarde des joueurs par DataStore, versionnée, avec migration quand le format change.",
-        "Interface conçue sous Figma et documentation technique structurée sous Obsidian."
+        "Reporting complet et datavisualisation.",
+        "Tableau pour valider l'impact du projet sur des données d'infrastructures locales."
       ],
-      "stack": ["Luau", "DataStore", "Figma", "Obsidian"]
+      "stack": [
+        "Tableau",
+        "R",
+        "Excel"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-202",
+      "tag": "data",
+      "year": "2026",
+      "file": "simulation.R",
+      "title": "Statistiques inférentielles et simulation R",
+      "context": "SAÉ 2.02 — traiter, analyser",
+      "points": [
+        "Calcul d'intervalles de confiance et échantillonnage sur données INSEE.",
+        "Automatisation de simulations par boucles."
+      ],
+      "stack": [
+        "R",
+        "Statistiques"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-102",
+      "tag": "hybride",
+      "year": "2025",
+      "file": "besoins_metier.py",
+      "title": "Programmation Python",
+      "context": "SAÉ 1.02 — traiter",
+      "points": [
+        "Traduction de besoins métiers en lignes de code.",
+        "Développement d'une logique algorithmique robuste."
+      ],
+      "stack": [
+        "Python"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-101",
+      "tag": "data",
+      "year": "2025",
+      "file": "requetes.sql",
+      "title": "Analyse et requêtage SQL",
+      "context": "SAÉ 1.01 — traiter",
+      "points": [
+        "Extraction d'informations dans de grandes bases de données.",
+        "Requêtes complexes multi-tables."
+      ],
+      "stack": [
+        "SQL",
+        "PostgreSQL"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-106",
+      "tag": "data",
+      "year": "2025",
+      "file": "correlations.xlsx",
+      "title": "Analyse statistique",
+      "context": "SAÉ 1.06 — analyser",
+      "points": [
+        "Analyse de corrélation entre variables quantitatives et qualitatives.",
+        "Interprétation statistique des phénomènes."
+      ],
+      "stack": [
+        "Statistiques",
+        "Excel"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-205",
+      "tag": "data",
+      "year": "2026",
+      "file": "rentabilite.xlsx",
+      "title": "Analyse de rentabilité",
+      "context": "SAÉ 2.05 — analyser, valoriser",
+      "points": [
+        "Manipulation de comptes de résultat et calcul des coûts de production.",
+        "Détermination des seuils de rentabilité."
+      ],
+      "stack": [
+        "Excel",
+        "Finance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-103",
+      "tag": "data",
+      "year": "2025",
+      "file": "dashboard.xlsx",
+      "title": "Dashboarding Excel",
+      "context": "SAÉ 1.03 — traiter, valoriser",
+      "points": [
+        "Fonctions Excel avancées.",
+        "Présentation des données pour une visualisation professionnelle."
+      ],
+      "stack": [
+        "Excel",
+        "Dataviz"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-104",
+      "tag": "data",
+      "year": "2025",
+      "file": "axone_data.md",
+      "title": "Écosystème data (Axone Data)",
+      "context": "SAÉ 1.04 — analyser, valoriser",
+      "points": [
+        "Analyse stratégique du marché et des points faibles des concurrents.",
+        "Présentation synthétique."
+      ],
+      "stack": [
+        "Analyse stratégique"
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-105",
+      "tag": "data",
+      "year": "2025",
+      "file": "lyon_poster.pdf",
+      "title": "Analyse territoriale de Lyon (projet en anglais)",
+      "context": "SAÉ 1.05 — analyser, valoriser",
+      "points": [
+        "Synthèse de données géographiques et économiques sur la Métropole de Lyon.",
+        "Poster et présentation orale de 4 minutes devant un public anglophone."
+      ],
+      "stack": [
+        "Synthèse de données",
+        "Anglais"
+      ],
+      "images": [
+        {
+          "src": "/projects/sae105-poster.webp",
+          "thumb": "/projects/sae105-poster.webp",
+          "alt": "Poster de la SAÉ 1.05 sur la Métropole de Lyon"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "sae-207",
+      "tag": "hybride",
+      "year": "2026",
+      "file": "interview_cisirh.md",
+      "title": "Immersion professionnelle : équipe data et IA",
+      "context": "SAÉ 2.07 — valoriser",
+      "points": [
+        "Entretien de 32 minutes en visio avec une Product Owner du CISIRH, préparé à l'avance.",
+        "Synthèse des pratiques d'une équipe data et de l'impact de l'IA sur ses méthodes de travail."
+      ],
+      "stack": [
+        "Communication",
+        "Veille IA"
+      ],
+      "images": [
+        {
+          "src": "/projects/sae207-interview.webp",
+          "thumb": "/projects/sae207-interview.webp",
+          "alt": "Capture de l'entretien de la SAÉ 2.07"
+        }
+      ],
+      "featured": false
     }
   ]
 }

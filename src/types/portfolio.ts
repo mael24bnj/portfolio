@@ -1,5 +1,8 @@
 export type ProfileMode = 'dev_ia' | 'data'
 
+/** Domaine d'un projet : « hybride » apparaît dans les deux onglets. */
+export type ProjectTag = 'data' | 'dev_ia' | 'hybride'
+
 export type LinkKind = 'github' | 'linkedin' | 'email'
 
 export interface ProfileLink {
@@ -36,9 +39,17 @@ export interface SkillGroup {
   items: string[]
 }
 
+export interface ProjectImage {
+  src: string
+  thumb: string
+  alt: string
+}
+
 export interface Project {
   id: string
-  domain: ProfileMode
+  tag: ProjectTag
+  year: string
+  featured: boolean
   file: string
   title: string
   context: string
@@ -46,6 +57,8 @@ export interface Project {
   points: string[]
   stack: string[]
   links?: { label: string; url: string }[]
+  images?: ProjectImage[]
+  credit?: string
 }
 
 export interface PortfolioData {

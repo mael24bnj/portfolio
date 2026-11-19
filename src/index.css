@@ -2,7 +2,29 @@
 
 /* Charte « Notebook vivant » : la page se lit comme un notebook Python.
    L'accent dépend du profil affiché (Dev IA = vert, Data = ambre). */
+
+/* Propriétés enregistrées : l'accent glisse d'une couleur à l'autre au changement de mode,
+   et l'angle du halo de la photo peut tourner en CSS. */
+@property --accent {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #3ddc97;
+}
+@property --accent-2 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #ffb547;
+}
+@property --halo-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
 :root {
+  transition:
+    --accent 0.6s ease,
+    --accent-2 0.6s ease;
   --ink: #0c110e;
   --cell: #121a15;
   --cell-raised: #16201a;
@@ -70,6 +92,24 @@
 }
 
 @layer components {
+  /* Halo et cadre tournants de la photo, aux couleurs du mode actif */
+  .portrait-halo,
+  .portrait-ring {
+    background: conic-gradient(from var(--halo-angle), var(--accent), var(--accent-2), transparent 70%, var(--accent));
+    animation: halo-spin 9s linear infinite;
+  }
+  @keyframes halo-spin {
+    to {
+      --halo-angle: 360deg;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .portrait-halo,
+    .portrait-ring {
+      animation: none;
+    }
+  }
+
   /* Coloration syntaxique minimale du code des cellules */
   .tok-kw {
     color: #c792ea;

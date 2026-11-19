@@ -1,3 +1,5 @@
 export { BrandIcon } from './BrandIcon'
 export { ModeSwitch } from './ModeSwitch'
+export { Portrait } from './Portrait'
 export { Tag } from './Tag'
+export { TagBadge } from './TagBadge'

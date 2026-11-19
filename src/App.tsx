@@ -1,6 +1,6 @@
 import { MotionConfig } from 'framer-motion'
 import { Navbar, Footer } from '@/components/layout'
-import { Hero, Profil, Formation, Competences, Projets, Contact } from '@/components/sections'
+import { Hero, Profil, Formation, Competences, Pipeline, Projets, Demo, Contact } from '@/components/sections'
 import { ModeProvider } from '@/context/ModeProvider'
 
 export default function App() {
@@ -19,7 +19,9 @@ export default function App() {
           <Profil />
           <Formation />
           <Competences />
+          <Pipeline />
           <Projets />
+          <Demo />
           <Contact />
         </main>
         <Footer />
